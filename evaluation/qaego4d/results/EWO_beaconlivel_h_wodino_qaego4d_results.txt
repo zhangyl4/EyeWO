@@ -1,0 +1,1 @@
+QAEgo4D Overall Accuracy: 165/500 = 33.00%

@@ -1,0 +1,114 @@
+import os, torchvision, transformers, tqdm, time, json, math
+import torch.multiprocessing as mp
+# torchvision.set_video_backend('video_reader')
+
+from data.utils import ffmpeg_once
+
+from data import Ego4DRefinedNarrationStream
+from .inference_highres_compress import LiveInfer_highres
+from pathlib import Path
+logger = transformers.logging.get_logger('liveinfer')
+
+# python -m demo.ego4d_narration_videollmonline --resume_from_checkpoint /root/videollm-online/outputs/ego4d_narration_train/live1 --live_version live1
+# --resume_from_checkpoint chenjoya/videollm-online-8b-v1plus
+# python -m demo.ego4d_narration_videollmonline --resume_from_checkpoint /root/videollm-online/outputs/ego4d_narration_train/live1_1+ --live_version live1_1+
+def ceil_time_by_fps(time: float, fps: int, min_time: float, max_time: float):
+    return min(max(math.ceil(time * fps) / fps, min_time), max_time)
+
+
+def conversation2text(conversation):
+    text = []
+    offset = -0.5
+    for item in conversation:
+        if item['role'] == 'stream':
+            offset += item['num_frames'] / 2
+        elif item['role'] == 'assistant':
+            text1 = item['content']
+            text1 = f'(Video Time = {offset}s) Assistant:{text1}'
+            text.append(text1)
+
+    return text
+
+
+def main(liveinfer: LiveInfer_highres, src_video_path=None, question=None, question_time=None,load_ranges=None):
+    liveinfer.reset()
+    if src_video_path is None:
+        src_video_path = input("Enter the video path: ")
+    if question is None:
+        question = input("Enter the question: ")
+
+    name, ext = os.path.splitext(src_video_path)
+    if str(liveinfer.frame_resolution) in name and str(liveinfer.frame_fps) in name:
+        ffmpeg_video_path = src_video_path
+    else:
+        ffmpeg_video_path = os.path.join('demo/assets/cache', name + f'_{liveinfer.frame_fps}fps_{liveinfer.frame_resolution}' + ext)
+        
+        save_history_path = src_video_path.replace('.mp4', '.json')
+        if not os.path.exists(ffmpeg_video_path):
+            os.makedirs(os.path.dirname(ffmpeg_video_path), exist_ok=True)
+            ffmpeg_once(src_video_path, ffmpeg_video_path, fps=liveinfer.frame_fps, resolution=liveinfer.frame_resolution)
+            logger.warning(f'{src_video_path} -> {ffmpeg_video_path}, {liveinfer.frame_fps} FPS, {liveinfer.frame_resolution} Resolution')
+    
+    print(f"range: {load_ranges}")
+    liveinfer.load_video(ffmpeg_video_path, load_ranges)
+    liveinfer.input_query_stream(question, video_time=0)
+
+    timecosts = []
+    pbar = tqdm.tqdm(total=liveinfer.num_video_frames, bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt}{postfix}]")
+    history = {'video_path': src_video_path, 'frame_fps': liveinfer.frame_fps, 'conversation': []}
+    all_responses = []
+    for i in range(liveinfer.num_video_frames):
+        start_time = time.time()
+        liveinfer.input_video_stream(i / liveinfer.frame_fps)
+        query, response = liveinfer()
+        end_time = time.time()
+        timecosts.append(end_time - start_time)
+        fps = (i + 1) / sum(timecosts)
+        pbar.set_postfix_str(f"Average Processing FPS: {fps:.1f}")
+        pbar.update(1)
+        if query:
+            history['conversation'].append({'role': 'user', 'content': query, 'time': liveinfer.video_time + start_time, 'fps': fps, 'cost': timecosts[-1]})
+            print(query)
+            all_responses.append(query)
+        if response:
+            history['conversation'].append({'role': 'assistant', 'content': response, 'time': liveinfer.video_time + start_time, 'fps': fps, 'cost': timecosts[-1]})
+            print(response)
+            all_responses.append(response)
+        if not query and not response:
+            history['conversation'].append({'time': liveinfer.video_time, 'fps': fps, 'cost': timecosts[-1]})
+    # json.dump(history, open(save_history_path, 'w'), indent=4)
+    # print(f'The conversation history has been saved to {save_history_path}.')
+    return all_responses # last response is answer
+
+if __name__ == '__main__':
+    
+    device = '1'
+    
+    liveinfer = LiveInfer_highres(device=f'cuda:{device}')
+    ego4d_narration_test = Ego4DRefinedNarrationStream(split='val', 
+                                                   frame_fps=liveinfer.frame_fps, is_training=False, augmentation=False,
+                                                   embed_mark='2fps_max384_1', vision_pretrained='google/siglip-large-patch16-384',
+                                                   tokenizer=liveinfer.tokenizer, system_prompt=liveinfer.system_prompt, max_num_frames=10000)
+    
+    # sample_idx = json.load(open('/root/videollm-online/data/ego4d/random_numbers.json'))
+    sample_idx = [1]
+    
+    # NOTE: EVALUATION
+    results = []
+    gts = []
+    for idx in tqdm.tqdm(sample_idx):
+        anno = ego4d_narration_test.annos[idx]
+        conversation=ego4d_narration_test.preprocess_conversation(anno['conversation'])
+        load_ranges=anno['load_ranges']
+        
+        gts.append({"video_id": idx, "conversation": conversation2text(conversation)})
+        json.dump(gts, Path(f"/root/videollm-online/data/ego4d/ego4d_narration_gt.json").open("w"), indent=2)
+        
+        video_name = list(load_ranges.keys())[0].split('/')[-1].split('.')[0]
+        question = "What the object category in my hand when I pick up something?"
+        
+        answer = main(liveinfer, "/root/videollm-online/datasets/ego4d/v2/full_scale_2fps_max384/" + video_name + '.mp4', question, load_ranges=list(load_ranges.values())[0])
+        
+        # store results
+        results.append({"video_id": idx, "conversation": answer})
+        json.dump(results, Path(f"/root/videollm-online/data/ego4d/ewo_v0_narration").open("w"), indent=2)

@@ -1,0 +1,83 @@
+############################
+# Global ignore for Eyes Wide Open repo
+############################
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / virtualenv
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Logs / temp
+logs/
+*.log
+tmp/
+temp/
+
+############################
+# Project-specific large dirs
+############################
+
+# 1) Ignore all baselines
+baseline/
+
+# 2) Ignore data/* except estp and preprocess
+data/
+!data/estp/
+!data/preprocess/
+!data/README.md
+!data/__init__.py
+
+# 3) Ignore whole datasets directory
+datasets/
+
+# 4) Ignore EyeWO2 (EyeWO2 / eyewo2)
+EyeWO2/
+eyewo2/
+
+# 5) Ignore livecc-related directories
+livecc/
+livecc_eyewo/
+
+# 6) Ignore all outputs
+outputs/
+
+# 7) Ignore scripts subfolders except estp
+scripts/
+!scripts/estp/
+
+# 8) Checkpoints / models (generic patterns)
+checkpoint-*/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# 9) Misc
+*.tar
+*.tar.gz
+*.zip
+
+# 10) Ignore video
+full_scale_2fps_max384/
+videos/
+video/
+
