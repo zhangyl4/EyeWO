@@ -1,0 +1,87 @@
+[
+    {
+        "role": "assistant",
+        "content": "Operate your phone, perhaps to check a recipe or set a timer, to assist with the cooking process.",
+        "time": 3154.709
+    },
+    {
+        "role": "assistant",
+        "content": "Lastly, adjust the wood in the fire to maintain the right temperature for preheating the pots.",
+        "time": 1275.59286
+    },
+    {
+        "role": "assistant",
+        "content": "Ensure the flour is evenly sieved into the tray for consistent baking results.",
+        "time": 1561.97774
+    },
+    {
+        "role": "assistant",
+        "content": "Knead the flour into dough one last time. Your dough should now be ready for the next steps in your recipe.",
+        "time": 2088.2801
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, give your dough one last knead. This ensures that it's evenly mixed and ready for shaping or baking, depending on your recipe.",
+        "time": 2288.00827
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, remove the fried dough from the frying pan to serve.",
+        "time": 2235.81339
+    },
+    {
+        "role": "assistant",
+        "content": "After tasting, proceed to scrape the grated carrots from the grater to collect them for your recipe.",
+        "time": 182.692
+    },
+    {
+        "role": "assistant",
+        "content": "Next, add the dough to the batter. This will coat the dough and prepare it for the next stage of cooking.",
+        "time": 326.99941
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, rinse the grater to clean it and prepare it for future use.",
+        "time": 830.47059
+    },
+    {
+        "role": "assistant",
+        "content": "You've already completed removing the fried dough from the pan, frying the dough in oil, and adding the dough to the batter. The next step is to taste the fried dough to ensure it's cooked to your liking and seasoned properly.",
+        "time": 1008.95449
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, stir the dough in the batter to mix it thoroughly before the next steps.",
+        "time": 1144.13368
+    },
+    {
+        "role": "assistant",
+        "content": "If you have more batter, fry it in oil following the same steps.",
+        "time": 1940.72475
+    },
+    {
+        "role": "assistant",
+        "content": "After squeezing the juice, dispose of the used lemon properly to keep your workspace clean and organized.",
+        "time": 2062.1961
+    },
+    {
+        "role": "assistant",
+        "content": "After handling the lemon, rinse your hands to remove any lemon juice or residue.",
+        "time": 2161.80857
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, mix the brine with the sliced zucchini to start the pickling process.",
+        "time": 266.83504
+    },
+    {
+        "role": "assistant",
+        "content": "After adding the cider vinegar, thoroughly stir the brine to ensure all ingredients are well combined.",
+        "time": 250.47776
+    },
+    {
+        "role": "assistant",
+        "content": "Finally, prepare the wrapped dough in a dough cutter for shaping before the final baking.",
+        "time": 266.216
+    }
+]

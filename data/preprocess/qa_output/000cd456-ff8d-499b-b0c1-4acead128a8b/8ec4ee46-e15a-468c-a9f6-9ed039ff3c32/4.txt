@@ -1,0 +1,52 @@
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame number where the visual clue first appears, based on the timestamp.
+
+If the visual clue does not appear in the video, please indicate that in your response.
+
+For example, if I ask, 'When does the person first appear in the video?', you should respond with something like, 'The person first appears at frame 120, corresponding to timestamp 00:00:04.' If the person does not appear, you should say, 'The person does not appear in the video.'
+
+Please pay attention to the visual content of the video and use the frame numbers and timestamps to pinpoint the exact frame where the visual clue first appears.
+
+Now, please answer the following question:
+
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame number where the visual clue first appears, based on the timestamp.
+
+If the visual clue does not appear in the video, please indicate that in your response.
+
+For example, if I ask, 'When does the person first appear in the video?', you should respond with something like, 'The person first appears at frame 120, corresponding to timestamp 00:00:04.' If the person does not appear, you should say, 'The person does not appear in the video.'
+
+Please pay attention to the visual content of the video and use the frame numbers and timestamps to pinpoint the exact frame where the visual clue first appears.
+
+Now, please answer the following question:
+
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame number where the visual clue first appears, based on the timestamp.
+
+If the visual clue does not appear in the video, please indicate that in your response.
+
+For example, if I ask, 'When does the person first appear in the video?', you should respond with something like, 'The person first appears at frame 120, corresponding to timestamp 00:00:04.' If the person does not appear, you should say, 'The person does not appear in the video.'
+
+Please pay attention to the visual content of the video and use the frame numbers and timestamps to pinpoint the exact frame where the visual clue first appears.
+
+Now, please answer the following question:
+
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame number where the visual clue first appears, based on the timestamp.
+
+If the visual clue does not appear in the video, please indicate that in your response.
+
+For example, if I ask, 'When does the person first appear in the video?', you should respond with something like, 'The person first appears at frame 120, corresponding to timestamp 00:00:04.' If the person does not appear, you should say, 'The person does not appear in the video.'
+
+Please pay attention to the visual content of the video and use the frame numbers and timestamps to pinpoint the exact frame where the visual clue first appears.
+
+Now, please answer the following question:
+
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame number where the visual clue first appears, based on the timestamp.
+
+If the visual clue does not appear in the video, please indicate that in your response.
+
+For example, if I ask, 'When does the person first appear in the video?', you should respond with something like, 'The person first appears at frame 120, corresponding to timestamp 00:00:04.' If the person does not appear, you should say, 'The person does not appear in the video.'
+
+Please pay attention to the visual content of the video and use the frame numbers and timestamps to pinpoint the exact frame where the visual clue first appears.
+
+Now, please answer the following question:
+
+What is the distinctive feature of the white cat ?
+The distinctive feature of the white cat is its fluffy tail and a mix of white and grey fur on its body, with darker markings around its face and ears. This cat appears to be a Ragdoll breed, known for their long, silky coat and striking color points.

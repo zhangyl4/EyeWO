@@ -1,0 +1,34 @@
+
+---
+
+**Task Requirements**:
+
+1. **Object Identification**: Identify all objects involved in the action described in the narration. If no objects are involved, strictly respond with "No objects."
+   
+2. **Object State Changes**: Describe the precise state changes of each object identified. For example, note if the object changes in size, shape, color, or if its function changes (e.g., a bottle lid being tightened).
+   
+3. **Object Relative Positional Changes**: Detail how the positions of the objects change relative to each other based on the action. Be spatially specific, such as "The bottle is moved from the table to the hand" or "The lid moves from loose to tightly sealed."
+   
+4. **Background Objects**: Describe any objects in the background of the video clip. If no background objects are visible or relevant, respond with "No background objects." If background objects change or become relevant to the action, include this information.
+
+---
+
+**Output Format**:
+```
+1. Relevant objects: [List the objects involved, or respond with "No objects."]
+2. Object state changes: [Describe the state changes of each object.]
+3. Object relative positional changes: [Describe the positional changes of the objects.]
+4. Background objects: [List any background objects, or respond with "No background objects."]
+```
+
+---
+
+**Constraints**:
+
+1. The model **must** include **all four sections** in its output. If any section has no content, the model must explicitly state "No [object/state/position/background]."
+   
+2. Ensure descriptions are **specific** and **accurate**. Avoid vague responses like "There is a bottle." Clearly state what happens to each object in relation to the action.
+
+3. **Do not** include any **extra commentary** or irrelevant details that don't pertain directly to the task at hand.
+
+4. Keep the output **concise**, focused, and **to the point**, strictly adhering to the provided format.

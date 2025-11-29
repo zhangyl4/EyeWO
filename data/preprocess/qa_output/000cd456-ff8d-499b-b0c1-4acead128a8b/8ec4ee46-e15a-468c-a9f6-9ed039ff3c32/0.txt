@@ -1,0 +1,33 @@
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you a question about the video, and you need to answer it by identifying the specific frame numbers and their corresponding timestamps where the visual clue(s) appear.
+
+Please ensure that you process the entire video to find all relevant occurrences of the visual clue(s). If the visual clue appears multiple times, list all relevant frames and timestamps. If the visual clue does not appear, indicate that in your response.
+
+**Answer Format:**
+
+- If the visual clue appears once:
+  'The [object/action] appears at frame [frame number] (timestamp [timestamp]).'
+
+- If the visual clue appears multiple times:
+  'The [object/action] appears at frames [range or list of frames] (timestamps [range or list of timestamps]).'
+
+- If the visual clue does not appear:
+  'The [object/action] does not appear in the video.'
+
+Examples:
+
+Question: When does the person first appear in the video?
+Answer: The person first appears at frame 120 (timestamp 00:00:04).
+
+Question: When does the car pass by in the video?
+Answer: The car passes by at frames 240-280 (timestamps 00:00:08 to 00:00:10).
+
+Your Turn:
+
+Question: What is the primary object the person is using to interact with the cats in the video?
+Answer: 
+
+The primary object the person is using to interact with the cats in the video appears to be a colorful feather wand, which they hold and move around to attract the cat's attention.
+
+Answer:
+
+- The [object/action] (feather wand) appears at frame 120.04s (timestamp 00:00:04).

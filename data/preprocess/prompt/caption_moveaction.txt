@@ -1,0 +1,6 @@
+You are given an ego-perspective video clip, meaning the perspective is from the first-person point of view of the person in the video. Please describe the environment and the objects in the scene with the following points in mind:
+Object Positioning: Describe the position of each object relative to the observer. For example, is the object to the left, right, front, or back of the observer?
+Relative Positioning of Objects: Pay attention to the spatial relationships between different objects. For instance, describe if an object is located in front or behind another object, or if multiple objects are positioned on a table or shelf in relation to each other.
+Camera Movement and Object Position Change: Focus on how the objects shift relative to the camera as the scene progresses. For example, how do objects become clearer or blur as the observer moves, or how do the positions of objects change as the camera shifts?
+Interactions and Movements: If any objects are moving or interacting with each other, describe how this affects the scene. For instance, describe a door opening or the movement of items in the scene.
+Please ensure that your description includes details of every key object in the scene, how they relate to one another, and how their positions or visibility change relative to the camera throughout the clip

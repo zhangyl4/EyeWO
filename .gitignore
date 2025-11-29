@@ -40,11 +40,13 @@ temp/
 baseline/
 
 # 2) Ignore data/* except estp and preprocess
-data/
-!data/estp/
-!data/preprocess/
-!data/README.md
-!data/__init__.py
+data/coin
+data/ego4d
+data/it_data
+data/livechat
+data/estp_dataset
+data/see_data.ipynb
+
 
 # 3) Ignore whole datasets directory
 datasets/
@@ -61,8 +63,8 @@ livecc_eyewo/
 outputs/
 
 # 7) Ignore scripts subfolders except estp
-scripts/
-!scripts/estp/
+scripts/coin
+scripts/ego4d
 
 # 8) Checkpoints / models (generic patterns)
 checkpoint-*/

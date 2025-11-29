@@ -1,0 +1,24 @@
+time is 0.0, action narration is "You walk along the road.".
+1. Relevant objects: Person, backpack, buildings, street lights, vehicles, trees, snow.
+2. Object state changes: The person's posture and position change as they walk; the backpack remains on their back.
+3. Object relative positional changes: The person moves forward along the sidewalk, while the background elements like buildings, streetlights, and vehicles remain stationary or in motion behind them.
+4. Background objects: Buildings, street lights, vehicles, trees with red branches, patches of snow.
+
+time is 2.5433, action narration is "You cross the road.".
+1. Relevant objects: Person, truck, crane, buildings
+2. Object state changes: The person is crossing the road; the truck and crane remain stationary.
+3. Object relative positional changes: The person moves from one side of the street to the other, passing the yellow pole and white building with columns in the background.
+4. Background objects: Several buildings, a construction crane, a red car in the distance, and bare trees indicating it might be winter or late fall.
+
+time is 17.67124, action narration is "You walk down the road.".
+1. Relevant objects: Pedestrian, traffic lights, building with arches
+2. Object state changes: The pedestrian is walking across the street; traffic lights are visible but not changing states.
+3. Object relative positional changes: The pedestrian moves from one side of the crosswalk to the other, crossing the road in front of the building.
+4. Background objects: Trees and a clear blue sky are visible in the background.
+
+time is 21.84412, action narration is "You walk past a woman on the road.".
+1. Relevant objects: Woman, road, pedestrian crossing, building with arches, traffic lights, trees, snow.
+2. Object state changes: The woman's position changes as she walks past the camera; the pedestrian crossing remains unchanged in state; the building and traffic lights remain static.
+3. Object relative positional changes: The woman moves from one side of the frame to the other across the pedestrian crossing; her position relative to the buildings and traffic lights shifts as she walks closer or further away from them.
+4. Background objects: Trees without leaves and patches of snow on the ground are visible in the background.
+

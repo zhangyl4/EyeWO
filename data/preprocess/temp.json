@@ -1,0 +1,1876 @@
+[
+    [
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.9555444328990561,
+                    "cost": 1.0465238094329834,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 99.0s) Assistant: Next, you'll need to add the vegetables to the pan. This will help build the base of your dish.",
+                    "time": 1157.5,
+                    "fps": 11.484608898696,
+                    "cost": 1.2775905132293701,
+                    "kv_cache_size": 2299
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 11.880583285918332,
+                    "cost": 0.20991849899291992,
+                    "kv_cache_size": 1028
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1201.0,
+                    "fps": 11.602462199609876,
+                    "cost": 0.5470185279846191,
+                    "kv_cache_size": 184
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 155.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1213.5,
+                    "fps": 11.53577692425155,
+                    "cost": 0.5731666088104248,
+                    "kv_cache_size": 416
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 177.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.0,
+                    "fps": 11.397411579225324,
+                    "cost": 0.6525053977966309,
+                    "kv_cache_size": 646
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 185.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1243.5,
+                    "fps": 11.262795517625534,
+                    "cost": 0.6312720775604248,
+                    "kv_cache_size": 331
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 190.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1249.0,
+                    "fps": 11.110849869297958,
+                    "cost": 0.6459858417510986,
+                    "kv_cache_size": 302
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 200.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1259.0,
+                    "fps": 10.993258300143383,
+                    "cost": 0.6548595428466797,
+                    "kv_cache_size": 416
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 10.868335678977276,
+                    "cost": 0.6119935512542725,
+                    "kv_cache_size": 332
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 212.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1271.0,
+                    "fps": 10.772374966973391,
+                    "cost": 0.6351580619812012,
+                    "kv_cache_size": 366
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 217.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1275.5,
+                    "fps": 10.66476888117177,
+                    "cost": 0.585975170135498,
+                    "kv_cache_size": 338
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 10.713966988275894,
+                    "cost": 0.598292350769043,
+                    "kv_cache_size": 680
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 10.653547294546454,
+                    "cost": 0.604194164276123,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 10.63641283253055,
+                    "cost": 0.18929052352905273,
+                    "kv_cache_size": 334
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 10.479459121240467,
+                    "cost": 0.8734183311462402,
+                    "kv_cache_size": 382
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1315.0,
+                    "fps": 10.348421398537525,
+                    "cost": 0.870520830154419,
+                    "kv_cache_size": 414
+                },
+                {
+                    "role": "fps",
+                    "content": 5.160940357410168
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    2.6530612244897958,
+                    4.948979591836735,
+                    4.2857142857142865,
+                    3.724489795918368,
+                    2.7040816326530615,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    3.75,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.569444444444444,
+                    3.194444444444444,
+                    4.097222222222222,
+                    2.916666666666666
+                ]
+            ]
+        },
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.9555444328990561,
+                    "cost": 1.0465238094329834,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 99.0s) Assistant: Next, you'll need to add the vegetables to the pan. This will help build the base of your dish.",
+                    "time": 1157.5,
+                    "fps": 11.484608898696,
+                    "cost": 1.2775905132293701,
+                    "kv_cache_size": 2299
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 11.880583285918332,
+                    "cost": 0.20991849899291992,
+                    "kv_cache_size": 1028
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1201.0,
+                    "fps": 11.602462199609876,
+                    "cost": 0.5470185279846191,
+                    "kv_cache_size": 184
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 155.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1213.5,
+                    "fps": 11.53577692425155,
+                    "cost": 0.5731666088104248,
+                    "kv_cache_size": 416
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 177.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.0,
+                    "fps": 11.397411579225324,
+                    "cost": 0.6525053977966309,
+                    "kv_cache_size": 646
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 185.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1243.5,
+                    "fps": 11.262795517625534,
+                    "cost": 0.6312720775604248,
+                    "kv_cache_size": 331
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 190.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1249.0,
+                    "fps": 11.110849869297958,
+                    "cost": 0.6459858417510986,
+                    "kv_cache_size": 302
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 200.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1259.0,
+                    "fps": 10.993258300143383,
+                    "cost": 0.6548595428466797,
+                    "kv_cache_size": 416
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 10.868335678977276,
+                    "cost": 0.6119935512542725,
+                    "kv_cache_size": 332
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 212.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1271.0,
+                    "fps": 10.772374966973391,
+                    "cost": 0.6351580619812012,
+                    "kv_cache_size": 366
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 217.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1275.5,
+                    "fps": 10.66476888117177,
+                    "cost": 0.585975170135498,
+                    "kv_cache_size": 338
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 10.713966988275894,
+                    "cost": 0.598292350769043,
+                    "kv_cache_size": 680
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 10.653547294546454,
+                    "cost": 0.604194164276123,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 10.63641283253055,
+                    "cost": 0.18929052352905273,
+                    "kv_cache_size": 334
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 10.479459121240467,
+                    "cost": 0.8734183311462402,
+                    "kv_cache_size": 382
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1315.0,
+                    "fps": 10.348421398537525,
+                    "cost": 0.870520830154419,
+                    "kv_cache_size": 414
+                },
+                {
+                    "role": "fps",
+                    "content": 5.160940357410168
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    2.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    4.642857142857143
+                ]
+            ]
+        }
+    ],
+    [
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.4421600811305996,
+                    "cost": 2.261624336242676,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 16.5s) Assistant: Next, you'll need to stir the egg mixture thoroughly to ensure even cooking and proper texture.",
+                    "time": 1075.0,
+                    "fps": 4.641615684396656,
+                    "cost": 1.6517133712768555,
+                    "kv_cache_size": 533
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 31.5s) Assistant: After that, you'll need to add the egg mixture to the pan again if needed, ensuring it's evenly distributed.",
+                    "time": 1090.0,
+                    "fps": 5.077326145212814,
+                    "cost": 2.063521146774292,
+                    "kv_cache_size": 517
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 52.5s) Assistant: Finally, stir the egg mixture again to ensure it's well-mixed and ready for cooking.",
+                    "time": 1111.0,
+                    "fps": 5.64565221341605,
+                    "cost": 1.6958675384521484,
+                    "kv_cache_size": 659
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 70.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1128.5,
+                    "fps": 5.872210878664943,
+                    "cost": 1.4450030326843262,
+                    "kv_cache_size": 595
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 94.5s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1153.0,
+                    "fps": 6.138603354891889,
+                    "cost": 1.7938499450683594,
+                    "kv_cache_size": 762
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 117.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1175.5,
+                    "fps": 6.2824216504301535,
+                    "cost": 1.5444397926330566,
+                    "kv_cache_size": 730
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 135.0s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1193.5,
+                    "fps": 6.213930487323415,
+                    "cost": 1.965902328491211,
+                    "kv_cache_size": 649
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 6.255717575264,
+                    "cost": 0.2694098949432373,
+                    "kv_cache_size": 323
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1200.5,
+                    "fps": 6.148762636355359,
+                    "cost": 0.9703984260559082,
+                    "kv_cache_size": 260
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 148.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1206.5,
+                    "fps": 6.120927245173434,
+                    "cost": 0.956010103225708,
+                    "kv_cache_size": 360
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 152.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1211.0,
+                    "fps": 6.072423879050147,
+                    "cost": 0.9418761730194092,
+                    "kv_cache_size": 339
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 178.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.5,
+                    "fps": 6.021757231150379,
+                    "cost": 1.5341858863830566,
+                    "kv_cache_size": 868
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 183.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1241.5,
+                    "fps": 5.834658665303119,
+                    "cost": 1.6810688972473145,
+                    "kv_cache_size": 378
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 189.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1247.5,
+                    "fps": 5.681986584325368,
+                    "cost": 1.6286942958831787,
+                    "kv_cache_size": 415
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 199.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1257.5,
+                    "fps": 5.519777712166735,
+                    "cost": 1.8284523487091064,
+                    "kv_cache_size": 515
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 5.395046166773248,
+                    "cost": 1.6365127563476562,
+                    "kv_cache_size": 459
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 210.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1268.5,
+                    "fps": 5.283512153698004,
+                    "cost": 1.6056632995605469,
+                    "kv_cache_size": 405
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 215.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1274.0,
+                    "fps": 5.241498692197948,
+                    "cost": 1.1962850093841553,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 223.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1282.0,
+                    "fps": 5.148077069104316,
+                    "cost": 1.5453293323516846,
+                    "kv_cache_size": 518
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 228.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1287.0,
+                    "fps": 5.094270508006368,
+                    "cost": 1.1540613174438477,
+                    "kv_cache_size": 464
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 5.116446718745491,
+                    "cost": 0.982588529586792,
+                    "kv_cache_size": 545
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 241.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1300.0,
+                    "fps": 5.1105867340959765,
+                    "cost": 0.9597296714782715,
+                    "kv_cache_size": 491
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 5.087465505604498,
+                    "cost": 1.0498850345611572,
+                    "kv_cache_size": 473
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 247.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1305.5,
+                    "fps": 5.053627864189141,
+                    "cost": 1.0231373310089111,
+                    "kv_cache_size": 455
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 5.043582115489296,
+                    "cost": 0.39336633682250977,
+                    "kv_cache_size": 440
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 249.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1307.5,
+                    "fps": 4.9851862090432055,
+                    "cost": 1.4650013446807861,
+                    "kv_cache_size": 476
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 4.933636506812938,
+                    "cost": 1.5026681423187256,
+                    "kv_cache_size": 511
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1314.5,
+                    "fps": 4.902759751115893,
+                    "cost": 1.4703619480133057,
+                    "kv_cache_size": 565
+                },
+                {
+                    "role": "fps",
+                    "content": 2.4483356274136288
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    4.489795918367347,
+                    3.877551020408163,
+                    2.8571428571428568,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    3.75,
+                    2.916666666666666,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.986111111111111,
+                    4.097222222222222,
+                    4.791666666666667,
+                    4.097222222222222,
+                    3.4027777777777777,
+                    2.916666666666666,
+                    2.638888888888889
+                ]
+            ]
+        },
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.4421600811305996,
+                    "cost": 2.261624336242676,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 16.5s) Assistant: Next, you'll need to stir the egg mixture thoroughly to ensure even cooking and proper texture.",
+                    "time": 1075.0,
+                    "fps": 4.641615684396656,
+                    "cost": 1.6517133712768555,
+                    "kv_cache_size": 533
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 31.5s) Assistant: After that, you'll need to add the egg mixture to the pan again if needed, ensuring it's evenly distributed.",
+                    "time": 1090.0,
+                    "fps": 5.077326145212814,
+                    "cost": 2.063521146774292,
+                    "kv_cache_size": 517
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 52.5s) Assistant: Finally, stir the egg mixture again to ensure it's well-mixed and ready for cooking.",
+                    "time": 1111.0,
+                    "fps": 5.64565221341605,
+                    "cost": 1.6958675384521484,
+                    "kv_cache_size": 659
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 70.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1128.5,
+                    "fps": 5.872210878664943,
+                    "cost": 1.4450030326843262,
+                    "kv_cache_size": 595
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 94.5s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1153.0,
+                    "fps": 6.138603354891889,
+                    "cost": 1.7938499450683594,
+                    "kv_cache_size": 762
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 117.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1175.5,
+                    "fps": 6.2824216504301535,
+                    "cost": 1.5444397926330566,
+                    "kv_cache_size": 730
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 135.0s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1193.5,
+                    "fps": 6.213930487323415,
+                    "cost": 1.965902328491211,
+                    "kv_cache_size": 649
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 6.255717575264,
+                    "cost": 0.2694098949432373,
+                    "kv_cache_size": 323
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1200.5,
+                    "fps": 6.148762636355359,
+                    "cost": 0.9703984260559082,
+                    "kv_cache_size": 260
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 148.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1206.5,
+                    "fps": 6.120927245173434,
+                    "cost": 0.956010103225708,
+                    "kv_cache_size": 360
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 152.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1211.0,
+                    "fps": 6.072423879050147,
+                    "cost": 0.9418761730194092,
+                    "kv_cache_size": 339
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 178.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.5,
+                    "fps": 6.021757231150379,
+                    "cost": 1.5341858863830566,
+                    "kv_cache_size": 868
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 183.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1241.5,
+                    "fps": 5.834658665303119,
+                    "cost": 1.6810688972473145,
+                    "kv_cache_size": 378
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 189.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1247.5,
+                    "fps": 5.681986584325368,
+                    "cost": 1.6286942958831787,
+                    "kv_cache_size": 415
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 199.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1257.5,
+                    "fps": 5.519777712166735,
+                    "cost": 1.8284523487091064,
+                    "kv_cache_size": 515
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 5.395046166773248,
+                    "cost": 1.6365127563476562,
+                    "kv_cache_size": 459
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 210.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1268.5,
+                    "fps": 5.283512153698004,
+                    "cost": 1.6056632995605469,
+                    "kv_cache_size": 405
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 215.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1274.0,
+                    "fps": 5.241498692197948,
+                    "cost": 1.1962850093841553,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 223.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1282.0,
+                    "fps": 5.148077069104316,
+                    "cost": 1.5453293323516846,
+                    "kv_cache_size": 518
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 228.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1287.0,
+                    "fps": 5.094270508006368,
+                    "cost": 1.1540613174438477,
+                    "kv_cache_size": 464
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 5.116446718745491,
+                    "cost": 0.982588529586792,
+                    "kv_cache_size": 545
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 241.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1300.0,
+                    "fps": 5.1105867340959765,
+                    "cost": 0.9597296714782715,
+                    "kv_cache_size": 491
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 5.087465505604498,
+                    "cost": 1.0498850345611572,
+                    "kv_cache_size": 473
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 247.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1305.5,
+                    "fps": 5.053627864189141,
+                    "cost": 1.0231373310089111,
+                    "kv_cache_size": 455
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 5.043582115489296,
+                    "cost": 0.39336633682250977,
+                    "kv_cache_size": 440
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 249.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1307.5,
+                    "fps": 4.9851862090432055,
+                    "cost": 1.4650013446807861,
+                    "kv_cache_size": 476
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 4.933636506812938,
+                    "cost": 1.5026681423187256,
+                    "kv_cache_size": 511
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1314.5,
+                    "fps": 4.902759751115893,
+                    "cost": 1.4703619480133057,
+                    "kv_cache_size": 565
+                },
+                {
+                    "role": "fps",
+                    "content": 2.4483356274136288
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    0.0,
+                    2.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    0.0,
+                    3.9285714285714284
+                ]
+            ]
+        },
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.4421600811305996,
+                    "cost": 2.261624336242676,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 16.5s) Assistant: Next, you'll need to stir the egg mixture thoroughly to ensure even cooking and proper texture.",
+                    "time": 1075.0,
+                    "fps": 4.641615684396656,
+                    "cost": 1.6517133712768555,
+                    "kv_cache_size": 533
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 31.5s) Assistant: After that, you'll need to add the egg mixture to the pan again if needed, ensuring it's evenly distributed.",
+                    "time": 1090.0,
+                    "fps": 5.077326145212814,
+                    "cost": 2.063521146774292,
+                    "kv_cache_size": 517
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 52.5s) Assistant: Finally, stir the egg mixture again to ensure it's well-mixed and ready for cooking.",
+                    "time": 1111.0,
+                    "fps": 5.64565221341605,
+                    "cost": 1.6958675384521484,
+                    "kv_cache_size": 659
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 70.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1128.5,
+                    "fps": 5.872210878664943,
+                    "cost": 1.4450030326843262,
+                    "kv_cache_size": 595
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 94.5s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1153.0,
+                    "fps": 6.138603354891889,
+                    "cost": 1.7938499450683594,
+                    "kv_cache_size": 762
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 117.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1175.5,
+                    "fps": 6.2824216504301535,
+                    "cost": 1.5444397926330566,
+                    "kv_cache_size": 730
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 135.0s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1193.5,
+                    "fps": 6.213930487323415,
+                    "cost": 1.965902328491211,
+                    "kv_cache_size": 649
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 6.255717575264,
+                    "cost": 0.2694098949432373,
+                    "kv_cache_size": 323
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1200.5,
+                    "fps": 6.148762636355359,
+                    "cost": 0.9703984260559082,
+                    "kv_cache_size": 260
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 148.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1206.5,
+                    "fps": 6.120927245173434,
+                    "cost": 0.956010103225708,
+                    "kv_cache_size": 360
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 152.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1211.0,
+                    "fps": 6.072423879050147,
+                    "cost": 0.9418761730194092,
+                    "kv_cache_size": 339
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 178.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.5,
+                    "fps": 6.021757231150379,
+                    "cost": 1.5341858863830566,
+                    "kv_cache_size": 868
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 183.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1241.5,
+                    "fps": 5.834658665303119,
+                    "cost": 1.6810688972473145,
+                    "kv_cache_size": 378
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 189.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1247.5,
+                    "fps": 5.681986584325368,
+                    "cost": 1.6286942958831787,
+                    "kv_cache_size": 415
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 199.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1257.5,
+                    "fps": 5.519777712166735,
+                    "cost": 1.8284523487091064,
+                    "kv_cache_size": 515
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 5.395046166773248,
+                    "cost": 1.6365127563476562,
+                    "kv_cache_size": 459
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 210.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1268.5,
+                    "fps": 5.283512153698004,
+                    "cost": 1.6056632995605469,
+                    "kv_cache_size": 405
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 215.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1274.0,
+                    "fps": 5.241498692197948,
+                    "cost": 1.1962850093841553,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 223.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1282.0,
+                    "fps": 5.148077069104316,
+                    "cost": 1.5453293323516846,
+                    "kv_cache_size": 518
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 228.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1287.0,
+                    "fps": 5.094270508006368,
+                    "cost": 1.1540613174438477,
+                    "kv_cache_size": 464
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 5.116446718745491,
+                    "cost": 0.982588529586792,
+                    "kv_cache_size": 545
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 241.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1300.0,
+                    "fps": 5.1105867340959765,
+                    "cost": 0.9597296714782715,
+                    "kv_cache_size": 491
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 5.087465505604498,
+                    "cost": 1.0498850345611572,
+                    "kv_cache_size": 473
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 247.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1305.5,
+                    "fps": 5.053627864189141,
+                    "cost": 1.0231373310089111,
+                    "kv_cache_size": 455
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 5.043582115489296,
+                    "cost": 0.39336633682250977,
+                    "kv_cache_size": 440
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 249.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1307.5,
+                    "fps": 4.9851862090432055,
+                    "cost": 1.4650013446807861,
+                    "kv_cache_size": 476
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 4.933636506812938,
+                    "cost": 1.5026681423187256,
+                    "kv_cache_size": 511
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1314.5,
+                    "fps": 4.902759751115893,
+                    "cost": 1.4703619480133057,
+                    "kv_cache_size": 565
+                },
+                {
+                    "role": "fps",
+                    "content": 2.4483356274136288
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0,
+                    5.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.0,
+                    4.489795918367347,
+                    3.877551020408163,
+                    2.8571428571428568,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    3.75,
+                    2.916666666666666,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.986111111111111,
+                    4.097222222222222,
+                    4.791666666666667,
+                    4.097222222222222,
+                    3.4027777777777777,
+                    2.916666666666666,
+                    2.638888888888889
+                ]
+            ]
+        },
+        {
+            "clip_start_time": 1058.5,
+            "clip_end_time": 1358.5,
+            "Task Type": "Object Relative Context",
+            "conversation": [
+                {
+                    "role": "user",
+                    "content": "Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1213.5,
+                    "end_time": 1259.5,
+                    "time": 1236.5
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1264.5,
+                    "end_time": 1267.5,
+                    "time": 1266.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "You are sitting on the floor playing with your phone.",
+                    "start_time": 1272.0,
+                    "end_time": 1305.0,
+                    "time": 1288.5
+                },
+                {
+                    "role": "user",
+                    "content": "Can you remind me where my phone is relative to me?",
+                    "time": 1306.0
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your phone is in your left hand.",
+                    "start_time": 1315.0,
+                    "end_time": 1315.5,
+                    "time": 1315.25
+                }
+            ],
+            "EWO": [
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 0.0s) Assistant: First, you'll need to add the egg mixture to the pan. This is the initial step in preparing your dish.",
+                    "time": 1058.5,
+                    "fps": 0.4421600811305996,
+                    "cost": 2.261624336242676,
+                    "kv_cache_size": 120
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 16.5s) Assistant: Next, you'll need to stir the egg mixture thoroughly to ensure even cooking and proper texture.",
+                    "time": 1075.0,
+                    "fps": 4.641615684396656,
+                    "cost": 1.6517133712768555,
+                    "kv_cache_size": 533
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 31.5s) Assistant: After that, you'll need to add the egg mixture to the pan again if needed, ensuring it's evenly distributed.",
+                    "time": 1090.0,
+                    "fps": 5.077326145212814,
+                    "cost": 2.063521146774292,
+                    "kv_cache_size": 517
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 52.5s) Assistant: Finally, stir the egg mixture again to ensure it's well-mixed and ready for cooking.",
+                    "time": 1111.0,
+                    "fps": 5.64565221341605,
+                    "cost": 1.6958675384521484,
+                    "kv_cache_size": 659
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 70.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1128.5,
+                    "fps": 5.872210878664943,
+                    "cost": 1.4450030326843262,
+                    "kv_cache_size": 595
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 94.5s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1153.0,
+                    "fps": 6.138603354891889,
+                    "cost": 1.7938499450683594,
+                    "kv_cache_size": 762
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 117.0s) Assistant: Finally, add the egg mixture to the pan once more to complete the cooking process.",
+                    "time": 1175.5,
+                    "fps": 6.2824216504301535,
+                    "cost": 1.5444397926330566,
+                    "kv_cache_size": 730
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 135.0s) Assistant: Finally, stir the egg mixture one last time to ensure it's perfectly cooked and ready to serve.",
+                    "time": 1193.5,
+                    "fps": 6.213930487323415,
+                    "cost": 1.965902328491211,
+                    "kv_cache_size": 649
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 140.0s) User: Can you remind me when I'm sitting on the floor playing with my phone?",
+                    "time": 1198.5,
+                    "fps": 6.255717575264,
+                    "cost": 0.2694098949432373,
+                    "kv_cache_size": 323
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 142.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1200.5,
+                    "fps": 6.148762636355359,
+                    "cost": 0.9703984260559082,
+                    "kv_cache_size": 260
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 148.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1206.5,
+                    "fps": 6.120927245173434,
+                    "cost": 0.956010103225708,
+                    "kv_cache_size": 360
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 152.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1211.0,
+                    "fps": 6.072423879050147,
+                    "cost": 0.9418761730194092,
+                    "kv_cache_size": 339
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 178.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1236.5,
+                    "fps": 6.021757231150379,
+                    "cost": 1.5341858863830566,
+                    "kv_cache_size": 868
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 183.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1241.5,
+                    "fps": 5.834658665303119,
+                    "cost": 1.6810688972473145,
+                    "kv_cache_size": 378
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 189.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1247.5,
+                    "fps": 5.681986584325368,
+                    "cost": 1.6286942958831787,
+                    "kv_cache_size": 415
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 199.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1257.5,
+                    "fps": 5.519777712166735,
+                    "cost": 1.8284523487091064,
+                    "kv_cache_size": 515
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 206.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1264.5,
+                    "fps": 5.395046166773248,
+                    "cost": 1.6365127563476562,
+                    "kv_cache_size": 459
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 210.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1268.5,
+                    "fps": 5.283512153698004,
+                    "cost": 1.6056632995605469,
+                    "kv_cache_size": 405
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 215.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1274.0,
+                    "fps": 5.241498692197948,
+                    "cost": 1.1962850093841553,
+                    "kv_cache_size": 448
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 223.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1282.0,
+                    "fps": 5.148077069104316,
+                    "cost": 1.5453293323516846,
+                    "kv_cache_size": 518
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 228.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1287.0,
+                    "fps": 5.094270508006368,
+                    "cost": 1.1540613174438477,
+                    "kv_cache_size": 464
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 236.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1295.0,
+                    "fps": 5.116446718745491,
+                    "cost": 0.982588529586792,
+                    "kv_cache_size": 545
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 241.5s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1300.0,
+                    "fps": 5.1105867340959765,
+                    "cost": 0.9597296714782715,
+                    "kv_cache_size": 491
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 245.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1303.5,
+                    "fps": 5.087465505604498,
+                    "cost": 1.0498850345611572,
+                    "kv_cache_size": 473
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 247.0s) Assistant: You sit on the floor playing your phone.",
+                    "time": 1305.5,
+                    "fps": 5.053627864189141,
+                    "cost": 1.0231373310089111,
+                    "kv_cache_size": 455
+                },
+                {
+                    "role": "user",
+                    "content": "(Video Time = 247.5s) User: Can you remind me where my phone is relative to me?",
+                    "time": 1306.0,
+                    "fps": 5.043582115489296,
+                    "cost": 0.39336633682250977,
+                    "kv_cache_size": 440
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 249.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1307.5,
+                    "fps": 4.9851862090432055,
+                    "cost": 1.4650013446807861,
+                    "kv_cache_size": 476
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 251.5s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1310.0,
+                    "fps": 4.933636506812938,
+                    "cost": 1.5026681423187256,
+                    "kv_cache_size": 511
+                },
+                {
+                    "role": "assistant",
+                    "content": "(Video Time = 256.0s) Assistant: Your phone is held in your right hand, positioned in front of you.",
+                    "time": 1314.5,
+                    "fps": 4.902759751115893,
+                    "cost": 1.4703619480133057,
+                    "kv_cache_size": 565
+                },
+                {
+                    "role": "fps",
+                    "content": 2.4483356274136288
+                }
+            ],
+            "id": 0,
+            "video_uid": "4ce9f93b-f44c-46fe-9050-3452d2f39abb",
+            "clip_uid": "0aa3ed50-16dc-4367-a65e-edb57e606315",
+            "evaluator_output_text": [
+                [
+                    0.0,
+                    0.0,
+                    2.0
+                ]
+            ],
+            "evaluator_output_reponse": [
+                [
+                    0.0,
+                    0.0,
+                    3.9285714285714284
+                ]
+            ]
+        }
+    ]
+]

@@ -1,0 +1,67 @@
+time is 0.00872386666666667, action narration is "You operate the microphone with your right hand.".
+1. Relevant objects: Drum set, microphone stand, drumsticks
+2. Object state changes: The hand holding the microphone is in motion, suggesting it's being operated.
+3. Object relative positional changes: The hand with the microphone moves from a position near the microphone to an operating position above it.
+4. Background objects: Curtains and possibly some equipment on top of the drum set are visible in the background.
+
+time is 0.5336238666666666, action narration is "You pick up a drumstick from the snare drum with your left hand.".
+1. Relevant objects: Drum set (including snare drum, toms, cymbals), drumsticks, person's legs.
+2. Object state changes: The left hand picks up a drumstick from the snare drum.
+3. Object relative positional changes: The position of the drumstick changes as it is lifted from the snare drum; the person's leg moves slightly to accommodate the action.
+4. Background objects: Curtains and part of a room with indistinct background details.
+
+time is 3.755453866666667, action narration is "You pass the drumsticks from your left to right hand.".
+1. Relevant objects: Drumsticks, drum set (including drums and cymbals), person's legs
+2. Object state changes: The drumsticks are passed from the left hand to the right hand.
+3. Object relative positional changes: The person's legs move slightly as they prepare to pass the drumstick; the drumsticks change position in relation to each other.
+4. Background objects: Curtains, some electronic devices, a lamp providing light.
+
+time is 4.9167238666666675, action narration is "You hold the drumsticks with both hands.".
+1. Relevant objects: Drum set, drumsticks
+2. Object state changes: The person is holding the drumsticks with both hands.
+3. Object relative positional changes: The drumsticks are raised and positioned to strike the drums; no significant change in position of other drums or cymbals.
+4. Background objects: There are electronic devices on a table behind the drum set, including what appears to be an amplifier and some cables. A lamp with a yellow light is visible in the foreground, providing illumination.
+
+time is 5.178883866666667, action narration is "You play the drum set with the drumsticks in both hands.".
+1. Relevant objects: Drum set, drumsticks, cymbals
+2. Object state changes: The drummer's hands are moving the drumsticks to strike different parts of the drum set, changing their position and orientation.
+3. Object relative positional changes: The drumsticks move from one hand to the other as they play various drums and cymbals on the drum set, altering the positions of the sticks in relation to the drums and cymbals.
+4. Background objects: A lamp with a yellow light is visible, providing ambient lighting in the room where the drumming takes place.
+
+time is 8.292853866666665, action narration is "You pass the drumstick from one hand to the other.".
+1. Relevant objects: Drumsticks, drum set (including drums and cymbals)
+2. Object state changes: The drumsticks are being passed from one hand to the other.
+3. Object relative positional changes: The drummer's hands move the drumsticks in a circular motion around the drum set, indicating the passing action.
+4. Background objects: There is a lamp with a yellow light on the left side of the frame and some cables or wires visible near the bottom right corner. A curtain can also be seen in the background.
+
+time is 9.392063866666666, action narration is "You operate the microphone with your right hand.".
+1. Relevant objects: Drum set, drumsticks, microphone
+2. Object state changes: The drumsticks are in motion striking the drums and cymbals; the microphone is being operated with a hand.
+3. Object relative positional changes: The drummer's hands move the drumsticks to strike different parts of the drum set, causing the cymbals to vibrate. The microphone is held close to where it needs to capture sound, likely near the mouth or instrument.
+4. Background objects: There are no background objects that are relevant to the action described in the narration.
+
+time is 11.422103866666665, action narration is "You pass the drumstick from your left to right hand.".
+1. Relevant objects: Drumsticks, drum set (snare, toms, cymbals), drum case, amplifier
+2. Object state changes: The drumstick passes from the left hand to the right hand.
+3. Object relative positional changes: The drumstick moves horizontally across the frame, changing position relative to the drums and other objects like the drum case and amplifier.
+4. Background objects: There is a drum case with what appears to be a sticker or label on it, and an amplifier in the background. No significant changes occur to these background objects during the action.
+
+time is 11.442093866666665, action narration is "You play the drum set with the drumsticks in both hands.".
+1. Relevant objects: Drum set, drumsticks
+2. Object state changes: The drums and cymbals are being played with the drumsticks; the position of the hands and drumsticks is changing as they strike different parts of the drum set.
+3. Object relative positional changes: The drummer's hands move between different drums and cymbals on the drum set, striking them in a sequence that suggests playing music.
+4. Background objects: There is a lamp providing light to the area, a piece of furniture (possibly a chair or table) near the drum set, and what appears to be a window with curtains partially visible in the background.
+
+time is 175.82256386666666, action narration is "You pass the drumstick from your right to left hand.".
+1. Relevant objects: Drumsticks, drum set (including snare drums, toms, cymbals)
+2. Object state changes: The right-hand drumstick moves from the resting position to striking a drum head, then back to rest.
+   The left-hand drumstick is initially stationary and later seen in motion, striking another drum head.
+3. Object relative positional changes: The right-hand drumstick's movement causes it to pass over the left-hand drumstick, which is raised slightly to avoid collision during the strike.
+4. Background objects: A floor lamp emitting a warm glow, a part of a window with curtains partially visible, some electronic devices or controls on a table near the drum set.
+
+time is 176.56266386666667, action narration is "You operate the microphone with your right hand.".
+1. Relevant objects: Drum set, drumsticks, microphone
+2. Object state changes: The person's right hand is operating the microphone; the drumsticks are in motion hitting different parts of the drum set.
+3. Object relative positional changes: The drummer's feet are positioned to play the bass drum and pedals, while the hands are actively engaged with the drums and cymbals. The microphone is being manipulated by the right hand.
+4. Background objects: There are no significant background objects visible in the video clip.
+

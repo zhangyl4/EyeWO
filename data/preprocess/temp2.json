@@ -1,0 +1,1418 @@
+[
+    {
+        "video_uid": "grp-304735ba-6bf5-4d39-bcb5-0dabddb11d68",
+        "conversation": [
+            {
+                "role": "User",
+                "content": "How does what I should do next compare to what I did before?  ",
+                "time": 908.4
+            },
+            {
+                "role": "Assistant",
+                "content": "Previously, you removed the soup pan from heat and put water in a pot to heat. Now, you should stir the water in the pot to ensure even heating. This step is essential to prepare the water for adding pasta, which is the next task.  ",
+                "time": 923.0,
+                "start_time": 923.0,
+                "end_time": 924.5
+            },
+            {
+                "role": "User",
+                "content": "How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.2
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the water ensures it heats evenly, which is crucial for cooking the pasta properly. If the water isn\u2019t evenly heated, the pasta may cook unevenly, affecting the final texture and taste of your dish.  ",
+                "time": 938.5,
+                "start_time": 937.5,
+                "end_time": 939.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019ve just adjusted the heat, which helps maintain the right temperature for cooking the pasta. This ensures the pasta cooks consistently without overcooking or sticking to the pot.  ",
+                "time": 944.5,
+                "start_time": 939.5,
+                "end_time": 949.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019re now getting a chopstick to stir the pasta. This tool is great for gently separating the pasta strands, preventing them from clumping together, and ensuring even cooking.  ",
+                "time": 955.5,
+                "start_time": 953.0,
+                "end_time": 958.0
+            },
+            {
+                "role": "Assistant",
+                "content": "Regulating the heat is important to maintain a steady boil. Too high a heat can cause the water to boil over, while too low a heat may undercook the pasta.  ",
+                "time": 959.25,
+                "start_time": 958.0,
+                "end_time": 960.5
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the pasta helps distribute the heat evenly and prevents it from sticking to the pot or clumping together. This ensures every piece of pasta cooks uniformly.  ",
+                "time": 963.5,
+                "start_time": 960.5,
+                "end_time": 966.5
+            },
+            {
+                "role": "User",
+                "content": "What are the skills I need to develop?  ",
+                "time": 975.8
+            },
+            {
+                "role": "Assistant",
+                "content": "To improve your cooking skills, focus on mastering heat control, timing, and stirring techniques. Additionally, practice multitasking, such as monitoring multiple pots or preparing ingredients while cooking. These skills will help you become more efficient and confident in the kitchen.",
+                "time": 987.0,
+                "start_time": 986.0,
+                "end_time": 988.0
+            }
+        ],
+        "clip_start_time": 873.5,
+        "clip_end_time": 988.0,
+        "duration": 78.60000000000002,
+        "Task Type": "Task Relative Context",
+        "EWO": [
+            {
+                "role": "assistant",
+                "content": "(Video Time = 0.0s) Assistant: First, you'll need to stir the soup to ensure even cooking and flavor distribution.",
+                "time": 873.5,
+                "fps": 0.825975092964695,
+                "cost": 1.2106902599334717,
+                "kv_cache_size": 113
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 15.5s) Assistant: Next, add water to the soup to adjust its consistency and enhance the cooking process.",
+                "time": 889.0,
+                "fps": 5.052370882673395,
+                "cost": 1.6302835941314697,
+                "kv_cache_size": 506
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 28.5s) Assistant: Finally, add soy sauce to enhance the flavor profile of your soup.",
+                "time": 902.0,
+                "fps": 5.295002452155542,
+                "cost": 1.3760488033294678,
+                "kv_cache_size": 463
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 35.0s) User: How does what I should do next compare to what I did before?  ",
+                "time": 908.5,
+                "fps": 5.587128880295564,
+                "cost": 0.32039380073547363,
+                "kv_cache_size": 280
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 42.0s) Assistant: Now, you'll stir the soup again to blend the soy sauce evenly and ensure all ingredients are well incorporated.",
+                "time": 915.5,
+                "fps": 5.189267011557345,
+                "cost": 1.955221176147461,
+                "kv_cache_size": 359
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 45.0s) Assistant: After stirring, you'll add soy sauce again to further enhance the taste and depth of the soup.",
+                "time": 918.5,
+                "fps": 4.802663387864112,
+                "cost": 1.8469409942626953,
+                "kv_cache_size": 228
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 49.5s) Assistant: Finally, give the soup one last stir to blend all the flavors together perfectly.",
+                "time": 923.0,
+                "fps": 4.652875031514731,
+                "cost": 1.4850680828094482,
+                "kv_cache_size": 323
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 55.0s) Assistant: After that, you'll add a bit more water to adjust the soup's consistency to your liking.",
+                "time": 928.5,
+                "fps": 4.539520861133447,
+                "cost": 1.8070340156555176,
+                "kv_cache_size": 310
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 58.0s) User: How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.5,
+                "fps": 4.615865817465652,
+                "cost": 0.29842185974121094,
+                "kv_cache_size": 260
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 60.0s) Assistant: Currently, you're adding water to the soup. This step ensures the soup reaches the desired consistency and helps blend all the flavors together.",
+                "time": 933.5,
+                "fps": 4.287969991235322,
+                "cost": 2.433506727218628,
+                "kv_cache_size": 262
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 65.0s) Assistant: Finally, you'll stir the soup one last time to ensure everything is well incorporated and ready to serve. This step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 938.5,
+                "fps": 4.026521905863512,
+                "cost": 3.1809165477752686,
+                "kv_cache_size": 399
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 69.0s) Assistant: Now, you're adding soy sauce to the soup. This step enhances the umami flavor and brings all the ingredients together for a rich, savory taste.",
+                "time": 942.5,
+                "fps": 3.8502766562914297,
+                "cost": 2.6926231384277344,
+                "kv_cache_size": 335
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 73.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 946.5,
+                "fps": 3.669648729323007,
+                "cost": 3.113567590713501,
+                "kv_cache_size": 352
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 75.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, and you'll be ready to enjoy your delicious meal.",
+                "time": 948.5,
+                "fps": 3.4410073526374414,
+                "cost": 3.4313652515411377,
+                "kv_cache_size": 325
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 77.5s) Assistant: Now, you'll add water to the soup again. This ensures the soup is perfectly balanced and ready to be served.",
+                "time": 951.0,
+                "fps": 3.3381138526933882,
+                "cost": 2.3243179321289062,
+                "kv_cache_size": 330
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 80.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly blended before serving.",
+                "time": 954.0,
+                "fps": 3.2899681387267834,
+                "cost": 1.807081699371338,
+                "kv_cache_size": 346
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 82.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly mixed before serving.",
+                "time": 956.0,
+                "fps": 3.2325384730432067,
+                "cost": 1.7032020092010498,
+                "kv_cache_size": 334
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 86.5s) Assistant: Finally, you'll serve the soup, bringing all your hard work together. This is the moment you've been preparing for, and your delicious soup is now ready to enjoy!",
+                "time": 960.0,
+                "fps": 3.1472106617952225,
+                "cost": 3.060225486755371,
+                "kv_cache_size": 411
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 88.5s) Assistant: You're now adding water to the soup. This step ensures the soup is at the perfect consistency, making it ready to enjoy.",
+                "time": 962.0,
+                "fps": 3.0707518247642587,
+                "cost": 2.264554500579834,
+                "kv_cache_size": 368
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 93.5s) Assistant: You're adding water to the soup again. This ensures the soup is perfectly balanced and ready to be enjoyed.",
+                "time": 967.0,
+                "fps": 3.082108421305807,
+                "cost": 1.9627463817596436,
+                "kv_cache_size": 442
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 95.0s) Assistant: You're giving the soup one last stir to ensure everything is well combined and ready to be served.",
+                "time": 968.5,
+                "fps": 3.0258971688714484,
+                "cost": 1.8012042045593262,
+                "kv_cache_size": 373
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 102.5s) User: What are the skills I need to develop?  ",
+                "time": 976.0,
+                "fps": 3.1682979316895676,
+                "cost": 0.312899112701416,
+                "kv_cache_size": 510
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 106.5s) Assistant: You're adding water to the soup again. This shows your attention to detail in ensuring the soup is perfectly balanced.",
+                "time": 980.0,
+                "fps": 3.147353814146658,
+                "cost": 2.162287950515747,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 107.5s) Assistant: You're stirring the soup. This shows your ability to maintain consistency and attention to detail in your cooking.",
+                "time": 981.0,
+                "fps": 3.0769785344080587,
+                "cost": 2.0018908977508545,
+                "kv_cache_size": 398
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 110.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 984.0,
+                "fps": 3.0606877524336347,
+                "cost": 1.7262656688690186,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 112.0s) Assistant: You're adding water to the soup again. This shows your ability to adjust the soup's consistency to perfection.",
+                "time": 985.5,
+                "fps": 3.004171489484992,
+                "cost": 2.0741097927093506,
+                "kv_cache_size": 436
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 113.0s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 986.5,
+                "fps": 2.957040649540116,
+                "cost": 1.704362154006958,
+                "kv_cache_size": 437
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 114.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 988.0,
+                "fps": 2.9174105115498863,
+                "cost": 1.7822484970092773,
+                "kv_cache_size": 458
+            },
+            {
+                "role": "fps",
+                "content": 1.4523630590107044
+            }
+        ],
+        "id": 0,
+        "clip_uid": "goal_step",
+        "evaluator_output_text": [
+            [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        ],
+        "evaluator_output_reponse": [
+            [
+                0.0,
+                0.0,
+                4.166666666666667,
+                0.0
+            ]
+        ]
+    },
+    {
+        "video_uid": "grp-304735ba-6bf5-4d39-bcb5-0dabddb11d68",
+        "conversation": [
+            {
+                "role": "User",
+                "content": "How does what I should do next compare to what I did before?  ",
+                "time": 908.4
+            },
+            {
+                "role": "Assistant",
+                "content": "Previously, you removed the soup pan from heat and put water in a pot to heat. Now, you should stir the water in the pot to ensure even heating. This step is essential to prepare the water for adding pasta, which is the next task.  ",
+                "time": 923.0,
+                "start_time": 923.0,
+                "end_time": 924.5
+            },
+            {
+                "role": "User",
+                "content": "How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.2
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the water ensures it heats evenly, which is crucial for cooking the pasta properly. If the water isn\u2019t evenly heated, the pasta may cook unevenly, affecting the final texture and taste of your dish.  ",
+                "time": 938.5,
+                "start_time": 937.5,
+                "end_time": 939.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019ve just adjusted the heat, which helps maintain the right temperature for cooking the pasta. This ensures the pasta cooks consistently without overcooking or sticking to the pot.  ",
+                "time": 944.5,
+                "start_time": 939.5,
+                "end_time": 949.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019re now getting a chopstick to stir the pasta. This tool is great for gently separating the pasta strands, preventing them from clumping together, and ensuring even cooking.  ",
+                "time": 955.5,
+                "start_time": 953.0,
+                "end_time": 958.0
+            },
+            {
+                "role": "Assistant",
+                "content": "Regulating the heat is important to maintain a steady boil. Too high a heat can cause the water to boil over, while too low a heat may undercook the pasta.  ",
+                "time": 959.25,
+                "start_time": 958.0,
+                "end_time": 960.5
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the pasta helps distribute the heat evenly and prevents it from sticking to the pot or clumping together. This ensures every piece of pasta cooks uniformly.  ",
+                "time": 963.5,
+                "start_time": 960.5,
+                "end_time": 966.5
+            },
+            {
+                "role": "User",
+                "content": "What are the skills I need to develop?  ",
+                "time": 975.8
+            },
+            {
+                "role": "Assistant",
+                "content": "To improve your cooking skills, focus on mastering heat control, timing, and stirring techniques. Additionally, practice multitasking, such as monitoring multiple pots or preparing ingredients while cooking. These skills will help you become more efficient and confident in the kitchen.",
+                "time": 987.0,
+                "start_time": 986.0,
+                "end_time": 988.0
+            }
+        ],
+        "clip_start_time": 873.5,
+        "clip_end_time": 988.0,
+        "duration": 78.60000000000002,
+        "Task Type": "Task Relative Context",
+        "EWO": [
+            {
+                "role": "assistant",
+                "content": "(Video Time = 0.0s) Assistant: First, you'll need to stir the soup to ensure even cooking and flavor distribution.",
+                "time": 873.5,
+                "fps": 0.825975092964695,
+                "cost": 1.2106902599334717,
+                "kv_cache_size": 113
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 15.5s) Assistant: Next, add water to the soup to adjust its consistency and enhance the cooking process.",
+                "time": 889.0,
+                "fps": 5.052370882673395,
+                "cost": 1.6302835941314697,
+                "kv_cache_size": 506
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 28.5s) Assistant: Finally, add soy sauce to enhance the flavor profile of your soup.",
+                "time": 902.0,
+                "fps": 5.295002452155542,
+                "cost": 1.3760488033294678,
+                "kv_cache_size": 463
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 35.0s) User: How does what I should do next compare to what I did before?  ",
+                "time": 908.5,
+                "fps": 5.587128880295564,
+                "cost": 0.32039380073547363,
+                "kv_cache_size": 280
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 42.0s) Assistant: Now, you'll stir the soup again to blend the soy sauce evenly and ensure all ingredients are well incorporated.",
+                "time": 915.5,
+                "fps": 5.189267011557345,
+                "cost": 1.955221176147461,
+                "kv_cache_size": 359
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 45.0s) Assistant: After stirring, you'll add soy sauce again to further enhance the taste and depth of the soup.",
+                "time": 918.5,
+                "fps": 4.802663387864112,
+                "cost": 1.8469409942626953,
+                "kv_cache_size": 228
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 49.5s) Assistant: Finally, give the soup one last stir to blend all the flavors together perfectly.",
+                "time": 923.0,
+                "fps": 4.652875031514731,
+                "cost": 1.4850680828094482,
+                "kv_cache_size": 323
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 55.0s) Assistant: After that, you'll add a bit more water to adjust the soup's consistency to your liking.",
+                "time": 928.5,
+                "fps": 4.539520861133447,
+                "cost": 1.8070340156555176,
+                "kv_cache_size": 310
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 58.0s) User: How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.5,
+                "fps": 4.615865817465652,
+                "cost": 0.29842185974121094,
+                "kv_cache_size": 260
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 60.0s) Assistant: Currently, you're adding water to the soup. This step ensures the soup reaches the desired consistency and helps blend all the flavors together.",
+                "time": 933.5,
+                "fps": 4.287969991235322,
+                "cost": 2.433506727218628,
+                "kv_cache_size": 262
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 65.0s) Assistant: Finally, you'll stir the soup one last time to ensure everything is well incorporated and ready to serve. This step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 938.5,
+                "fps": 4.026521905863512,
+                "cost": 3.1809165477752686,
+                "kv_cache_size": 399
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 69.0s) Assistant: Now, you're adding soy sauce to the soup. This step enhances the umami flavor and brings all the ingredients together for a rich, savory taste.",
+                "time": 942.5,
+                "fps": 3.8502766562914297,
+                "cost": 2.6926231384277344,
+                "kv_cache_size": 335
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 73.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 946.5,
+                "fps": 3.669648729323007,
+                "cost": 3.113567590713501,
+                "kv_cache_size": 352
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 75.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, and you'll be ready to enjoy your delicious meal.",
+                "time": 948.5,
+                "fps": 3.4410073526374414,
+                "cost": 3.4313652515411377,
+                "kv_cache_size": 325
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 77.5s) Assistant: Now, you'll add water to the soup again. This ensures the soup is perfectly balanced and ready to be served.",
+                "time": 951.0,
+                "fps": 3.3381138526933882,
+                "cost": 2.3243179321289062,
+                "kv_cache_size": 330
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 80.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly blended before serving.",
+                "time": 954.0,
+                "fps": 3.2899681387267834,
+                "cost": 1.807081699371338,
+                "kv_cache_size": 346
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 82.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly mixed before serving.",
+                "time": 956.0,
+                "fps": 3.2325384730432067,
+                "cost": 1.7032020092010498,
+                "kv_cache_size": 334
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 86.5s) Assistant: Finally, you'll serve the soup, bringing all your hard work together. This is the moment you've been preparing for, and your delicious soup is now ready to enjoy!",
+                "time": 960.0,
+                "fps": 3.1472106617952225,
+                "cost": 3.060225486755371,
+                "kv_cache_size": 411
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 88.5s) Assistant: You're now adding water to the soup. This step ensures the soup is at the perfect consistency, making it ready to enjoy.",
+                "time": 962.0,
+                "fps": 3.0707518247642587,
+                "cost": 2.264554500579834,
+                "kv_cache_size": 368
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 93.5s) Assistant: You're adding water to the soup again. This ensures the soup is perfectly balanced and ready to be enjoyed.",
+                "time": 967.0,
+                "fps": 3.082108421305807,
+                "cost": 1.9627463817596436,
+                "kv_cache_size": 442
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 95.0s) Assistant: You're giving the soup one last stir to ensure everything is well combined and ready to be served.",
+                "time": 968.5,
+                "fps": 3.0258971688714484,
+                "cost": 1.8012042045593262,
+                "kv_cache_size": 373
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 102.5s) User: What are the skills I need to develop?  ",
+                "time": 976.0,
+                "fps": 3.1682979316895676,
+                "cost": 0.312899112701416,
+                "kv_cache_size": 510
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 106.5s) Assistant: You're adding water to the soup again. This shows your attention to detail in ensuring the soup is perfectly balanced.",
+                "time": 980.0,
+                "fps": 3.147353814146658,
+                "cost": 2.162287950515747,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 107.5s) Assistant: You're stirring the soup. This shows your ability to maintain consistency and attention to detail in your cooking.",
+                "time": 981.0,
+                "fps": 3.0769785344080587,
+                "cost": 2.0018908977508545,
+                "kv_cache_size": 398
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 110.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 984.0,
+                "fps": 3.0606877524336347,
+                "cost": 1.7262656688690186,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 112.0s) Assistant: You're adding water to the soup again. This shows your ability to adjust the soup's consistency to perfection.",
+                "time": 985.5,
+                "fps": 3.004171489484992,
+                "cost": 2.0741097927093506,
+                "kv_cache_size": 436
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 113.0s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 986.5,
+                "fps": 2.957040649540116,
+                "cost": 1.704362154006958,
+                "kv_cache_size": 437
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 114.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 988.0,
+                "fps": 2.9174105115498863,
+                "cost": 1.7822484970092773,
+                "kv_cache_size": 458
+            },
+            {
+                "role": "fps",
+                "content": 1.4523630590107044
+            }
+        ],
+        "id": 0,
+        "clip_uid": "goal_step",
+        "evaluator_output_text": [
+            [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        ],
+        "evaluator_output_reponse": [
+            [
+                0.0,
+                0.0,
+                4.166666666666667,
+                0.0
+            ]
+        ]
+    },
+    {
+        "video_uid": "grp-304735ba-6bf5-4d39-bcb5-0dabddb11d68",
+        "conversation": [
+            {
+                "role": "User",
+                "content": "How does what I should do next compare to what I did before?  ",
+                "time": 908.4
+            },
+            {
+                "role": "Assistant",
+                "content": "Previously, you removed the soup pan from heat and put water in a pot to heat. Now, you should stir the water in the pot to ensure even heating. This step is essential to prepare the water for adding pasta, which is the next task.  ",
+                "time": 923.0,
+                "start_time": 923.0,
+                "end_time": 924.5
+            },
+            {
+                "role": "User",
+                "content": "How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.2
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the water ensures it heats evenly, which is crucial for cooking the pasta properly. If the water isn\u2019t evenly heated, the pasta may cook unevenly, affecting the final texture and taste of your dish.  ",
+                "time": 938.5,
+                "start_time": 937.5,
+                "end_time": 939.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019ve just adjusted the heat, which helps maintain the right temperature for cooking the pasta. This ensures the pasta cooks consistently without overcooking or sticking to the pot.  ",
+                "time": 944.5,
+                "start_time": 939.5,
+                "end_time": 949.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019re now getting a chopstick to stir the pasta. This tool is great for gently separating the pasta strands, preventing them from clumping together, and ensuring even cooking.  ",
+                "time": 955.5,
+                "start_time": 953.0,
+                "end_time": 958.0
+            },
+            {
+                "role": "Assistant",
+                "content": "Regulating the heat is important to maintain a steady boil. Too high a heat can cause the water to boil over, while too low a heat may undercook the pasta.  ",
+                "time": 959.25,
+                "start_time": 958.0,
+                "end_time": 960.5
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the pasta helps distribute the heat evenly and prevents it from sticking to the pot or clumping together. This ensures every piece of pasta cooks uniformly.  ",
+                "time": 963.5,
+                "start_time": 960.5,
+                "end_time": 966.5
+            },
+            {
+                "role": "User",
+                "content": "What are the skills I need to develop?  ",
+                "time": 975.8
+            },
+            {
+                "role": "Assistant",
+                "content": "To improve your cooking skills, focus on mastering heat control, timing, and stirring techniques. Additionally, practice multitasking, such as monitoring multiple pots or preparing ingredients while cooking. These skills will help you become more efficient and confident in the kitchen.",
+                "time": 987.0,
+                "start_time": 986.0,
+                "end_time": 988.0
+            }
+        ],
+        "clip_start_time": 873.5,
+        "clip_end_time": 988.0,
+        "duration": 78.60000000000002,
+        "Task Type": "Task Relative Context",
+        "EWO": [
+            {
+                "role": "assistant",
+                "content": "(Video Time = 0.0s) Assistant: First, you'll need to stir the soup to ensure even cooking and flavor distribution.",
+                "time": 873.5,
+                "fps": 0.825975092964695,
+                "cost": 1.2106902599334717,
+                "kv_cache_size": 113
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 15.5s) Assistant: Next, add water to the soup to adjust its consistency and enhance the cooking process.",
+                "time": 889.0,
+                "fps": 5.052370882673395,
+                "cost": 1.6302835941314697,
+                "kv_cache_size": 506
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 28.5s) Assistant: Finally, add soy sauce to enhance the flavor profile of your soup.",
+                "time": 902.0,
+                "fps": 5.295002452155542,
+                "cost": 1.3760488033294678,
+                "kv_cache_size": 463
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 35.0s) User: How does what I should do next compare to what I did before?  ",
+                "time": 908.5,
+                "fps": 5.587128880295564,
+                "cost": 0.32039380073547363,
+                "kv_cache_size": 280
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 42.0s) Assistant: Now, you'll stir the soup again to blend the soy sauce evenly and ensure all ingredients are well incorporated.",
+                "time": 915.5,
+                "fps": 5.189267011557345,
+                "cost": 1.955221176147461,
+                "kv_cache_size": 359
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 45.0s) Assistant: After stirring, you'll add soy sauce again to further enhance the taste and depth of the soup.",
+                "time": 918.5,
+                "fps": 4.802663387864112,
+                "cost": 1.8469409942626953,
+                "kv_cache_size": 228
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 49.5s) Assistant: Finally, give the soup one last stir to blend all the flavors together perfectly.",
+                "time": 923.0,
+                "fps": 4.652875031514731,
+                "cost": 1.4850680828094482,
+                "kv_cache_size": 323
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 55.0s) Assistant: After that, you'll add a bit more water to adjust the soup's consistency to your liking.",
+                "time": 928.5,
+                "fps": 4.539520861133447,
+                "cost": 1.8070340156555176,
+                "kv_cache_size": 310
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 58.0s) User: How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.5,
+                "fps": 4.615865817465652,
+                "cost": 0.29842185974121094,
+                "kv_cache_size": 260
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 60.0s) Assistant: Currently, you're adding water to the soup. This step ensures the soup reaches the desired consistency and helps blend all the flavors together.",
+                "time": 933.5,
+                "fps": 4.287969991235322,
+                "cost": 2.433506727218628,
+                "kv_cache_size": 262
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 65.0s) Assistant: Finally, you'll stir the soup one last time to ensure everything is well incorporated and ready to serve. This step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 938.5,
+                "fps": 4.026521905863512,
+                "cost": 3.1809165477752686,
+                "kv_cache_size": 399
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 69.0s) Assistant: Now, you're adding soy sauce to the soup. This step enhances the umami flavor and brings all the ingredients together for a rich, savory taste.",
+                "time": 942.5,
+                "fps": 3.8502766562914297,
+                "cost": 2.6926231384277344,
+                "kv_cache_size": 335
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 73.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 946.5,
+                "fps": 3.669648729323007,
+                "cost": 3.113567590713501,
+                "kv_cache_size": 352
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 75.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, and you'll be ready to enjoy your delicious meal.",
+                "time": 948.5,
+                "fps": 3.4410073526374414,
+                "cost": 3.4313652515411377,
+                "kv_cache_size": 325
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 77.5s) Assistant: Now, you'll add water to the soup again. This ensures the soup is perfectly balanced and ready to be served.",
+                "time": 951.0,
+                "fps": 3.3381138526933882,
+                "cost": 2.3243179321289062,
+                "kv_cache_size": 330
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 80.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly blended before serving.",
+                "time": 954.0,
+                "fps": 3.2899681387267834,
+                "cost": 1.807081699371338,
+                "kv_cache_size": 346
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 82.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly mixed before serving.",
+                "time": 956.0,
+                "fps": 3.2325384730432067,
+                "cost": 1.7032020092010498,
+                "kv_cache_size": 334
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 86.5s) Assistant: Finally, you'll serve the soup, bringing all your hard work together. This is the moment you've been preparing for, and your delicious soup is now ready to enjoy!",
+                "time": 960.0,
+                "fps": 3.1472106617952225,
+                "cost": 3.060225486755371,
+                "kv_cache_size": 411
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 88.5s) Assistant: You're now adding water to the soup. This step ensures the soup is at the perfect consistency, making it ready to enjoy.",
+                "time": 962.0,
+                "fps": 3.0707518247642587,
+                "cost": 2.264554500579834,
+                "kv_cache_size": 368
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 93.5s) Assistant: You're adding water to the soup again. This ensures the soup is perfectly balanced and ready to be enjoyed.",
+                "time": 967.0,
+                "fps": 3.082108421305807,
+                "cost": 1.9627463817596436,
+                "kv_cache_size": 442
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 95.0s) Assistant: You're giving the soup one last stir to ensure everything is well combined and ready to be served.",
+                "time": 968.5,
+                "fps": 3.0258971688714484,
+                "cost": 1.8012042045593262,
+                "kv_cache_size": 373
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 102.5s) User: What are the skills I need to develop?  ",
+                "time": 976.0,
+                "fps": 3.1682979316895676,
+                "cost": 0.312899112701416,
+                "kv_cache_size": 510
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 106.5s) Assistant: You're adding water to the soup again. This shows your attention to detail in ensuring the soup is perfectly balanced.",
+                "time": 980.0,
+                "fps": 3.147353814146658,
+                "cost": 2.162287950515747,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 107.5s) Assistant: You're stirring the soup. This shows your ability to maintain consistency and attention to detail in your cooking.",
+                "time": 981.0,
+                "fps": 3.0769785344080587,
+                "cost": 2.0018908977508545,
+                "kv_cache_size": 398
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 110.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 984.0,
+                "fps": 3.0606877524336347,
+                "cost": 1.7262656688690186,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 112.0s) Assistant: You're adding water to the soup again. This shows your ability to adjust the soup's consistency to perfection.",
+                "time": 985.5,
+                "fps": 3.004171489484992,
+                "cost": 2.0741097927093506,
+                "kv_cache_size": 436
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 113.0s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 986.5,
+                "fps": 2.957040649540116,
+                "cost": 1.704362154006958,
+                "kv_cache_size": 437
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 114.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 988.0,
+                "fps": 2.9174105115498863,
+                "cost": 1.7822484970092773,
+                "kv_cache_size": 458
+            },
+            {
+                "role": "fps",
+                "content": 1.4523630590107044
+            }
+        ],
+        "id": 0,
+        "clip_uid": "goal_step",
+        "evaluator_output_text": [
+            [
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                2.0,
+                1.0,
+                2.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                2.0
+            ]
+        ],
+        "evaluator_output_reponse": [
+            [
+                0.0,
+                5.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                2.692307692307692,
+                4.230769230769231,
+                4.230769230769231,
+                3.4615384615384617,
+                2.5,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.0625,
+                4.6875,
+                2.1875,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.318181818181818,
+                2.5,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.055555555555556,
+                4.166666666666667,
+                3.055555555555556,
+                2.2222222222222223
+            ]
+        ]
+    },
+    {
+        "video_uid": "grp-304735ba-6bf5-4d39-bcb5-0dabddb11d68",
+        "conversation": [
+            {
+                "role": "User",
+                "content": "How does what I should do next compare to what I did before?  ",
+                "time": 908.4
+            },
+            {
+                "role": "Assistant",
+                "content": "Previously, you removed the soup pan from heat and put water in a pot to heat. Now, you should stir the water in the pot to ensure even heating. This step is essential to prepare the water for adding pasta, which is the next task.  ",
+                "time": 923.0,
+                "start_time": 923.0,
+                "end_time": 924.5
+            },
+            {
+                "role": "User",
+                "content": "How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.2
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the water ensures it heats evenly, which is crucial for cooking the pasta properly. If the water isn\u2019t evenly heated, the pasta may cook unevenly, affecting the final texture and taste of your dish.  ",
+                "time": 938.5,
+                "start_time": 937.5,
+                "end_time": 939.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019ve just adjusted the heat, which helps maintain the right temperature for cooking the pasta. This ensures the pasta cooks consistently without overcooking or sticking to the pot.  ",
+                "time": 944.5,
+                "start_time": 939.5,
+                "end_time": 949.5
+            },
+            {
+                "role": "Assistant",
+                "content": "You\u2019re now getting a chopstick to stir the pasta. This tool is great for gently separating the pasta strands, preventing them from clumping together, and ensuring even cooking.  ",
+                "time": 955.5,
+                "start_time": 953.0,
+                "end_time": 958.0
+            },
+            {
+                "role": "Assistant",
+                "content": "Regulating the heat is important to maintain a steady boil. Too high a heat can cause the water to boil over, while too low a heat may undercook the pasta.  ",
+                "time": 959.25,
+                "start_time": 958.0,
+                "end_time": 960.5
+            },
+            {
+                "role": "Assistant",
+                "content": "Stirring the pasta helps distribute the heat evenly and prevents it from sticking to the pot or clumping together. This ensures every piece of pasta cooks uniformly.  ",
+                "time": 963.5,
+                "start_time": 960.5,
+                "end_time": 966.5
+            },
+            {
+                "role": "User",
+                "content": "What are the skills I need to develop?  ",
+                "time": 975.8
+            },
+            {
+                "role": "Assistant",
+                "content": "To improve your cooking skills, focus on mastering heat control, timing, and stirring techniques. Additionally, practice multitasking, such as monitoring multiple pots or preparing ingredients while cooking. These skills will help you become more efficient and confident in the kitchen.",
+                "time": 987.0,
+                "start_time": 986.0,
+                "end_time": 988.0
+            }
+        ],
+        "clip_start_time": 873.5,
+        "clip_end_time": 988.0,
+        "duration": 78.60000000000002,
+        "Task Type": "Task Relative Context",
+        "EWO": [
+            {
+                "role": "assistant",
+                "content": "(Video Time = 0.0s) Assistant: First, you'll need to stir the soup to ensure even cooking and flavor distribution.",
+                "time": 873.5,
+                "fps": 0.825975092964695,
+                "cost": 1.2106902599334717,
+                "kv_cache_size": 113
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 15.5s) Assistant: Next, add water to the soup to adjust its consistency and enhance the cooking process.",
+                "time": 889.0,
+                "fps": 5.052370882673395,
+                "cost": 1.6302835941314697,
+                "kv_cache_size": 506
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 28.5s) Assistant: Finally, add soy sauce to enhance the flavor profile of your soup.",
+                "time": 902.0,
+                "fps": 5.295002452155542,
+                "cost": 1.3760488033294678,
+                "kv_cache_size": 463
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 35.0s) User: How does what I should do next compare to what I did before?  ",
+                "time": 908.5,
+                "fps": 5.587128880295564,
+                "cost": 0.32039380073547363,
+                "kv_cache_size": 280
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 42.0s) Assistant: Now, you'll stir the soup again to blend the soy sauce evenly and ensure all ingredients are well incorporated.",
+                "time": 915.5,
+                "fps": 5.189267011557345,
+                "cost": 1.955221176147461,
+                "kv_cache_size": 359
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 45.0s) Assistant: After stirring, you'll add soy sauce again to further enhance the taste and depth of the soup.",
+                "time": 918.5,
+                "fps": 4.802663387864112,
+                "cost": 1.8469409942626953,
+                "kv_cache_size": 228
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 49.5s) Assistant: Finally, give the soup one last stir to blend all the flavors together perfectly.",
+                "time": 923.0,
+                "fps": 4.652875031514731,
+                "cost": 1.4850680828094482,
+                "kv_cache_size": 323
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 55.0s) Assistant: After that, you'll add a bit more water to adjust the soup's consistency to your liking.",
+                "time": 928.5,
+                "fps": 4.539520861133447,
+                "cost": 1.8070340156555176,
+                "kv_cache_size": 310
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 58.0s) User: How does what I'm doing now impact the bigger picture?  ",
+                "time": 931.5,
+                "fps": 4.615865817465652,
+                "cost": 0.29842185974121094,
+                "kv_cache_size": 260
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 60.0s) Assistant: Currently, you're adding water to the soup. This step ensures the soup reaches the desired consistency and helps blend all the flavors together.",
+                "time": 933.5,
+                "fps": 4.287969991235322,
+                "cost": 2.433506727218628,
+                "kv_cache_size": 262
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 65.0s) Assistant: Finally, you'll stir the soup one last time to ensure everything is well incorporated and ready to serve. This step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 938.5,
+                "fps": 4.026521905863512,
+                "cost": 3.1809165477752686,
+                "kv_cache_size": 399
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 69.0s) Assistant: Now, you're adding soy sauce to the soup. This step enhances the umami flavor and brings all the ingredients together for a rich, savory taste.",
+                "time": 942.5,
+                "fps": 3.8502766562914297,
+                "cost": 2.6926231384277344,
+                "kv_cache_size": 335
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 73.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, bringing you closer to enjoying your delicious meal.",
+                "time": 946.5,
+                "fps": 3.669648729323007,
+                "cost": 3.113567590713501,
+                "kv_cache_size": 352
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 75.0s) Assistant: Finally, you'll give the soup one last stir to ensure everything is well incorporated and ready to serve. This final step completes the cooking process, and you'll be ready to enjoy your delicious meal.",
+                "time": 948.5,
+                "fps": 3.4410073526374414,
+                "cost": 3.4313652515411377,
+                "kv_cache_size": 325
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 77.5s) Assistant: Now, you'll add water to the soup again. This ensures the soup is perfectly balanced and ready to be served.",
+                "time": 951.0,
+                "fps": 3.3381138526933882,
+                "cost": 2.3243179321289062,
+                "kv_cache_size": 330
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 80.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly blended before serving.",
+                "time": 954.0,
+                "fps": 3.2899681387267834,
+                "cost": 1.807081699371338,
+                "kv_cache_size": 346
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 82.5s) Assistant: Finally, you'll give the soup one last stir to ensure everything is perfectly mixed before serving.",
+                "time": 956.0,
+                "fps": 3.2325384730432067,
+                "cost": 1.7032020092010498,
+                "kv_cache_size": 334
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 86.5s) Assistant: Finally, you'll serve the soup, bringing all your hard work together. This is the moment you've been preparing for, and your delicious soup is now ready to enjoy!",
+                "time": 960.0,
+                "fps": 3.1472106617952225,
+                "cost": 3.060225486755371,
+                "kv_cache_size": 411
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 88.5s) Assistant: You're now adding water to the soup. This step ensures the soup is at the perfect consistency, making it ready to enjoy.",
+                "time": 962.0,
+                "fps": 3.0707518247642587,
+                "cost": 2.264554500579834,
+                "kv_cache_size": 368
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 93.5s) Assistant: You're adding water to the soup again. This ensures the soup is perfectly balanced and ready to be enjoyed.",
+                "time": 967.0,
+                "fps": 3.082108421305807,
+                "cost": 1.9627463817596436,
+                "kv_cache_size": 442
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 95.0s) Assistant: You're giving the soup one last stir to ensure everything is well combined and ready to be served.",
+                "time": 968.5,
+                "fps": 3.0258971688714484,
+                "cost": 1.8012042045593262,
+                "kv_cache_size": 373
+            },
+            {
+                "role": "user",
+                "content": "(Video Time = 102.5s) User: What are the skills I need to develop?  ",
+                "time": 976.0,
+                "fps": 3.1682979316895676,
+                "cost": 0.312899112701416,
+                "kv_cache_size": 510
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 106.5s) Assistant: You're adding water to the soup again. This shows your attention to detail in ensuring the soup is perfectly balanced.",
+                "time": 980.0,
+                "fps": 3.147353814146658,
+                "cost": 2.162287950515747,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 107.5s) Assistant: You're stirring the soup. This shows your ability to maintain consistency and attention to detail in your cooking.",
+                "time": 981.0,
+                "fps": 3.0769785344080587,
+                "cost": 2.0018908977508545,
+                "kv_cache_size": 398
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 110.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 984.0,
+                "fps": 3.0606877524336347,
+                "cost": 1.7262656688690186,
+                "kv_cache_size": 456
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 112.0s) Assistant: You're adding water to the soup again. This shows your ability to adjust the soup's consistency to perfection.",
+                "time": 985.5,
+                "fps": 3.004171489484992,
+                "cost": 2.0741097927093506,
+                "kv_cache_size": 436
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 113.0s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 986.5,
+                "fps": 2.957040649540116,
+                "cost": 1.704362154006958,
+                "kv_cache_size": 437
+            },
+            {
+                "role": "assistant",
+                "content": "(Video Time = 114.5s) Assistant: You're stirring the soup again. This shows your ability to maintain consistency in your cooking technique.",
+                "time": 988.0,
+                "fps": 2.9174105115498863,
+                "cost": 1.7822484970092773,
+                "kv_cache_size": 458
+            },
+            {
+                "role": "fps",
+                "content": 1.4523630590107044
+            }
+        ],
+        "id": 0,
+        "clip_uid": "goal_step",
+        "evaluator_output_text": [
+            [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                2.0
+            ]
+        ],
+        "evaluator_output_reponse": [
+            [
+                0.0,
+                0.0,
+                0.0,
+                3.5,
+                4.5,
+                4.0
+            ]
+        ]
+    }
+]

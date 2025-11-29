@@ -1,0 +1,1 @@
+For the relevant items in question "{QUESTION}" and answer "{ANSWER}", can you see from the figure that the answer is Yes if you can see and No if you can't

@@ -1,0 +1,46 @@
+You are provided with a list of objects described from a ego video clip. For each object, generate a formatted JSON entry that includes:  
+1. **Type**: The category of the object (e.g., "Bag," "Clothes," "Appliance").  
+2. **Appearance Attributes**: Three key attributes describing the object's physical appearance (e.g., color, shape, material).  
+3. **Start State**: Describe the state of the object at the beginning of the action (e.g., "Standing upright," "Empty," "Unopened"). Leave empty (`null`) if no information is available.  
+4. **End State**: Describe the state of the object at the end of the action (e.g., "Lying flat," "Folded," "Filled"). Leave empty (`null`) if no information is available.  
+5. **Is Involved in Action**: A Boolean attribute (`true` or `false`) indicating whether the object is directly involved in the action described.  
+6. **Start Position**: Leave this empty.  
+7. **End Position**: Leave this empty.  
+
+---
+
+**Input**:  
+[List of objects and descriptions from Prompt 1]  
+
+---
+
+**Task**:  
+Generate JSON data for each object in this format:  
+```json
+{
+  "objects": [
+    {
+      "name": "Object Name",
+      "type": "Object Type",
+      "attributes": {
+        "attribute_1": "Value of attribute 1",
+        "attribute_2": "Value of attribute 2",
+        "attribute_3": "Value of attribute 3"
+      },
+      "start_state": "Description of the object's state at the beginning",
+      "end_state": "Description of the object's state at the end",
+      "is_involved_in_action": true,
+      "start_position": null,
+      "end_position": null
+    },
+    {
+      "name": "Object Name",
+      ...
+    }
+  ]
+}
+```
+
+Use `true` or `false` for `is_involved_in_action` based on whether the object is explicitly mentioned as part of the action in the input. Use available details from the input to fill in `start_state` and `end_state` or leave them as `null` if unavailable.
+
+This is a list of objects described from a ego video clip :  

@@ -1,0 +1,27 @@
+This is a ego video clip of "{}", your task is to describe in detail:  
+1. All objects involved in the action (action-related objects).  
+2. All other objects visible in the environment (background objects).  
+
+---
+
+**Input**:  
+**Video Clip Description**: [Provide the video clip description here]  
+**Action Description**: [Provide the action description here]  
+
+---
+
+**Task**:  
+Describe:  
+1. **Action-related Objects**: List and describe all objects involved in the action. Include their appearance, state changes, and positional changes if visible.  
+2. **Background Objects**: List and describe other objects visible in the video environment. Focus on their appearance and position.
+
+Respond with detailed and accurate language for each object. Use this format:  
+```
+Action-related Objects:  
+- Object 1: [Description including appearance, state, and position changes].  
+- Object 2: [Description].  
+
+Background Objects:  
+- Object 1: [Description including appearance and static position].  
+- Object 2: [Description].  
+```

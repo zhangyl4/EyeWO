@@ -1,0 +1,30 @@
+time is 0.00872386666666667, action narration is "You walk around the apartment.".
+1. Relevant objects: A person, a table with various items on it (books, papers), a bottle, and possibly some furniture in the background.
+2. Object state changes: The person appears to be moving towards the table, likely to interact with the items there.
+3. Object relative positional changes: The person is approaching the table from below the camera's viewpoint, suggesting they are walking around the apartment.
+4. Background objects: There are framed pictures or artworks on the wall behind the table, but no significant change in their position is observed as part of the action described.
+
+time is 5.397993866666667, action narration is "You spray the plant.".
+1. Relevant objects: Plant, guitar, stack of books, person's hand with a spray bottle
+2. Object state changes: The plant appears to be in the same position throughout the frames.
+3. Object relative positional changes: There are no significant changes in the positions of the objects relative to each other; they remain stationary.
+4. Background objects: A guitar is mounted on the wall above the plant, and there is a stack of books beside the bed. No background objects change or become relevant to the action.
+
+time is 26.691283866666666, action narration is "You stare at the plant.".
+1. Relevant objects: A plant, a person's hand.
+2. Object state changes: The leaves of the plant are being moved by the person's hand.
+3. Object relative positional changes: The hand is positioned near the plant, interacting with it, likely adjusting or touching the leaves.
+4. Background objects: There is a wooden shelf in the background with various items on it, including what appears to be books and possibly some decorative items.
+
+time is 28.694453866666667, action narration is "You hold a leaf.".
+1. Relevant objects: Guitar, plant
+2. Object state changes: The leaf is held by the person.
+3. Object relative positional changes: The guitar remains on the wall; the plant moves slightly as it is being manipulated.
+4. Background objects: No background objects are visible or relevant to the action described in the video clip.
+
+time is 29.017173866666667, action narration is "You spray the plant.".
+1. Relevant objects: Guitar, plant, hand with spray bottle
+2. Object state changes: The spray bottle is held by the hand and directed towards the plant.
+3. Object relative positional changes: The hand moves closer to the plant while holding the spray bottle, indicating an action of spraying the plant.
+4. Background objects: There are no significant background objects visible in this clip; the focus remains on the interaction between the hand, the spray bottle, and the plant.
+

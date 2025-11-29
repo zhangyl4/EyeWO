@@ -1,0 +1,5 @@
+You are given an initial JSON output describing objects from a ego video clip of "{}". Your task is to refine and complete this JSON by:  
+1. Filling in any missing details about the state or positional changes of each object.  
+2. Adding any additional relevant attributes based on the video clip and action narration. 
+
+This is the initial JSON : 

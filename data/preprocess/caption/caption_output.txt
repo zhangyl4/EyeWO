@@ -1,0 +1,33 @@
+---
+
+**Output Format(JSON)**:
+
+```json
+{
+  "objects": [
+    {
+      "name": "object_1",
+      "state_changes": "State change description of object_1",
+      "positional_changes": "Positional change description of object_1",
+      "description": "Object_1 description",
+      "relevance_to_action": "Related to action / Not related to action"
+    },
+    {
+      "name": "object_2",
+      "state_changes": "State change description of object_2",
+      "positional_changes": "Positional change description of object_2",
+      "description": "Object_2 description",
+      "relevance_to_action": "Related to action / Not related to action"
+    }
+  ]
+}
+```
+
+---
+
+### **Key Points**:
+
+1. **Identify both action-relevant objects and background objects**.
+2. Ensure that all objects have a **state change**, **positional change**, and **description**.
+3. If the object is not involved in the action, mark it as `"Not related to action"`.
+4. The output should follow the **exact JSON structure** with each object having the required fields (`name`, `state_changes`, `positional_changes`, `description`, `relevance_to_action`).

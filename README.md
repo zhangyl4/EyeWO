@@ -1,10 +1,8 @@
 ## Eyes Wide Open: NeurIPS 2025
 
-**Paper title**: *Eyes Wide Open: [Put Full Paper Title Here]*  
+**Paper title**: *Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video*  
 **Conference**: NeurIPS 2025  
 **This repository** is the **official implementation** of the NeurIPS 2025 paper “Eyes Wide Open”, including training / inference code, configs, and scripts to reproduce the main results.
-
-> 简短中文说明：本仓库是 NeurIPS 2025 论文 **Eyes Wide Open** 的官方开源实现，包含训练、推理与评测脚本，方便复现实验结果。
 
 ### Overview
 
@@ -12,64 +10,41 @@
 - **Main features**:
   - Train and evaluate the Eyes Wide Open model;
   - Support online / streaming video understanding scenarios;
-  - Provide evaluation scripts for ESTP, Ego4D and other benchmarks;
-  - Integrate data and scripts for LiveCC / EyeWO2 style datasets (code kept, but most raw data is **not** distributed with this repo).
+  - Provide evaluation scripts for ESTP, OvObench and other benchmarks;
 
-Some scripts in this repo are adapted from existing open-source projects (e.g., LiveCC).  
-Their original code is kept mainly under `baseline/` and related folders; please refer to each subdirectory for the corresponding license.
+Some scripts in this repo are adapted from existing open-source projects (e.g., VideoLLM-online, Streamingbench, LiveCC).  
 
 ### Repository Structure
 
 - `engine/`, `models/`, `train.py`: core model definitions and training entrypoints;
 - `data/estp`, `data/preprocess`: ESTP-related preprocessing and dataset loading (other `data/*` directories are ignored by `.gitignore` to keep the repo small);
 - `scripts/estp`: training / evaluation scripts for ESTP and related tasks (other subfolders under `scripts/` are ignored in `.gitignore`);
-- `EyeWO2/`, `livecc/`, `livecc_eyewo/`: EyeWO2 / LiveCC-style data and script extensions (these folders are ignored by default; sync them separately if needed);
+- `livecc/`, `livecc_eyewo/`: LiveCC-style data and script extensions (these folders are ignored by default; sync them separately if needed);
 - `baseline/`: third-party baselines and related works (ignored from the main git history to avoid a huge repo).
 
 ### Dependencies & Environment
 
-We recommend **Python 3.10+** and **CUDA 12+**.  
-Basic dependencies can be installed following `env.sh`, which roughly includes:
+We adopt the environment setup from **[showlab/videollm-online: VideoLLM-online – Online Video Large Language Model for Streaming Video (CVPR 2024)](https://githubovideollm-online/)** as our primary configuration. Please refer to `env.sh` in that repository for the basic setup.
 
-- `transformers==4.48.3`
-- `accelerate`
-- `deepspeed==0.15.4`
-- `peft`
-- `flash-attn`
-- `moviepy`, `decord`
-- data processing utilities such as `spacy`, `sentencepiece`, etc.
+For offline multimodal large language model (MLLM) experiments, we use Hugging Face Transformers and only require the standard LLaVA environment.
 
-You are encouraged to turn this into a `requirements.txt` or `environment.yml` for one-click setup.
+For other baselines, please follow the official implementations for environment setup.
 
-### Datasets & ModelScope / HuggingFace Links
+### Datasets and Model Weight Links
 
 This repo relies on several public or to-be-opened datasets / data collections.  
 Please fill in or update the links below when your datasets are publicly available.
 
-- **ESTP-IT** (instruction tuning dataset)
-  - **ModelScope dataset repo**: `zhangyl9/ESTP-IT`  
-  - Example upload script: see `datasets/upload_hf.py` (using `modelscope.hub.api.HubApi` to upload the whole `datasets/` directory).
+- **datasets**
 
-- **ESTP-Bench / ESTP_Bench**
-  - **HuggingFace dataset**: `zhangyl9/ESTP-Bench`  
-  - Example upload code is also shown (commented) in `datasets/upload_hf.py` using `HfApi`.
+  - **ESTP-IT** (instruction tuning dataset): **ModelScope dataset repo**: `zhangyl9/ESTP-IT`  
 
-- **EyeWO2 data** (for online / streaming video QA, captioning, etc.)
-  - Related JSONL files are under `EyeWO2/data/`, e.g.:
-    - `llava_video_178k_with_seeks_sample_valid.jsonl`
-    - `cof_qwen2vl.jsonl`
-    - `etbench_qwen2vl_timestamp.jsonl`
-  - We recommend hosting them on ModelScope or HuggingFace. Example placeholders:
-    - ModelScope: `modelscope://your_org/EyeWO2`
-    - HuggingFace: `https://huggingface.co/datasets/your_org/EyeWO2`
+  - **ESTP-Bench**(evaluation data and script):  **ModelScope dataset**: `zhangyl9/ESTP-Bench`  
+  - **2FPS Original Ego4D Video:**  **ModelScope dataset**: `zhangyl9/ESTP_origin_video`  
 
-- **LiveCC-style pretraining and instruction-tuning data**
-  - Configuration and details can be found in `baseline/livecc/README.md`;
-  - If you open-source Eyes Wide Open–specific LiveCC data, please add the links here, e.g.:
-    - ModelScope: `modelscope://your_org/EyesWideOpen-LiveCC`
-    - HuggingFace: `https://huggingface.co/datasets/your_org/EyesWideOpen-LiveCC`
+- **Model Weight**
 
-> **Note**: `your_org` and some URLs above are placeholders. Please replace them with the actual public dataset repositories before making the repo public.
+  - 
 
 ### Quick Start: Training & Inference
 
@@ -83,44 +58,51 @@ cd eyes-wide-open
 bash env.sh
 ```
 
-#### Train on ESTP-style tasks
+#### Train on ESTP tasks
 
 Use the scripts under `scripts/estp` (names may differ from the example below):
 
 ```bash
-cd scripts/estp
-bash beacon_livel_h_stage2_livebase.sh   # Example; replace with the script you actually use
+bash scripts/estp/beacon_livel_h_stage3.5_livebase_cqa.sh   # Example; replace with the script you actually use
+# for pre 1 epoch, set add_random_high_res_ratio as 0, then using evaluate_wVsionEncoder.py to get inference result, after that, using data/estp/livechat.py HighResInsertor to construct final training dataset.
 ```
 
 #### Inference / evaluation
 
 ```bash
-cd /2024233235/videollm-online
-python evaluate.py \
-  --config configs/your_config.yaml \
-  --output_dir outputs/demo
+# for ESTP task, refer to eval_estp.sh
+# for ovobench and qaego4d,
+distributed_evaluate_ovobench_videollmeyewo.py
+EXPORT ONLINE=1 # oneline or not
+torchrun --standalone --nproc_per_node=8 distributed_evaluate_qaego4d_videollmeyewo.py
+# we provide ours result in evaluation/
 ```
 
 Depending on the task (e.g., Ego4D QA, ESTP-Bench, coin benchmarks), you may instead use
 `distributed_evaluate_qaego4d_videollmeyewo.py`, `distributed_evaluate_qaego4d_videollmonline.py`,
 or other task-specific scripts.
 
-### Relation to the NeurIPS 2025 Paper
+### TODO
 
-- **Main model**: this repo contains the implementation of the Eyes Wide Open video-language model described in the NeurIPS 2025 paper;
-- **Datasets**: ESTP-IT, ESTP-Bench, EyeWO2, LiveCC-derived data, etc., correspond to the training and evaluation datasets in the paper;
-- **Scripts**: `scripts/estp`, `distributed_evaluate_*.py` and related files reproduce the main experiments (Ego4D, ESTP, online captioning / QA, and more).
+- ESTP-Gen
+- LiveCC-EyeWO
+
+### Acknowledge
+
+We thank the open-source contributions of **VideoLLM-Online**, **StreamingBench**, and **Ego4D**.
+
+We also gratefully acknowledge [Zhiyi Wang](https://zhiyi.vision/), [Dingyou Wang](https://openreview.net/profile?id=~Dingyou_Wang1), and **Sihang Zhuang** for their valuable assistance with data collection.
 
 ### Citation
 
 If you find Eyes Wide Open or this repo useful in your research, please cite our paper (BibTeX placeholder below; update it once the camera-ready version is available):
 
 ```bibtex
-@inproceedings{eyeswideopen2025,
-  title     = {Eyes Wide Open: [Full Title Here]},
-  author    = {First Author and Second Author and Others},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-  year      = {2025}
+@article{zhang2025eyes,
+  title={Eyes wide open: Ego proactive video-llm for streaming video},
+  author={Zhang, Yulin and Shi, Cheng and Wang, Yang and Yang, Sibei},
+  journal={arXiv preprint arXiv:2510.14560},
+  year={2025}
 }
 ```
 

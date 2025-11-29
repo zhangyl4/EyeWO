@@ -1,0 +1,20 @@
+You are given the following information about the visual content and a corresponding action narration. Please convert this information into a structured JSON format, ensuring that each identified object is detailed along with its state, positional changes, description, and relevance to the action.
+
+---
+
+**Visual Content Summary**:
+{}
+
+**Action Narration**:
+- {}
+
+---
+
+**Task**:
+1. **Object Identification**: Identify all relevant objects involved in the action, including those mentioned in the visual summary. If no objects are involved, respond with `"No objects"`.
+2. **State Changes**: Describe any changes in the state of the objects (e.g., "The laundry bag moves from standing to lying flat"). If no state changes occur, respond with `"No state changes"`.
+3. **Positional Changes**: Describe how the position of each object changes relative to others (e.g., "The laundry bag moves from standing to lying flat"). If no positional changes occur, respond with `"No positional changes"`.
+4. **Object Description**: Provide a brief description of each object (e.g., "The laundry bag is blue, medium-sized"). If no description is available, respond with `"No description available"`.
+5. **Relevance to Action**: State whether each object is relevant to the action (e.g., `"Related to action"` or `"Not related to action"`).
+
+
