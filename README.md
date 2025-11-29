@@ -78,9 +78,6 @@ torchrun --standalone --nproc_per_node=8 distributed_evaluate_qaego4d_videollmey
 # we provide ours result in evaluation/
 ```
 
-Depending on the task (e.g., Ego4D QA, ESTP-Bench, coin benchmarks), you may instead use
-`distributed_evaluate_qaego4d_videollmeyewo.py`, `distributed_evaluate_qaego4d_videollmonline.py`,
-or other task-specific scripts.
 
 ### TODO
 
