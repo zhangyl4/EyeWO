@@ -22,6 +22,13 @@ Some scripts in this repo are adapted from existing open-source projects (e.g., 
 - `livecc/`, `livecc_eyewo/`: LiveCC-style data and script extensions (these folders are ignored by default; sync them separately if needed);
 - `baseline/`: third-party baselines and related works (ignored from the main git history to avoid a huge repo).
 
+
+### TODO
+
+This is an initial release of the code with a rough introduction, shared due to limited time. 
+The data and model weights are being uploaded, and any missing code will be organized and provided as soon as possible. 
+Please feel free to open an issue or contact me via email if you encounter any problems or need more details.
+
 ### Dependencies & Environment
 
 We adopt the environment setup from **[showlab/videollm-online: VideoLLM-online – Online Video Large Language Model for Streaming Video (CVPR 2024)](https://githubovideollm-online/)** as our primary configuration. Please refer to `env.sh` in that repository for the basic setup.
@@ -79,10 +86,7 @@ torchrun --standalone --nproc_per_node=8 distributed_evaluate_qaego4d_videollmey
 ```
 
 
-### TODO
 
-- ESTP-Gen
-- LiveCC-EyeWO
 
 ### Acknowledge
 
