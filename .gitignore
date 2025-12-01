@@ -118,3 +118,4 @@ estp_gen/vis.ipynb
 # Large filtered data files
 estp_gen/ego4d/filtered_data.json
 estp_gen/ego4d/filtered_data_pre.json
+estp_gen/ego4d/filtered_data.json
