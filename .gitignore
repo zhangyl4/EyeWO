@@ -115,3 +115,6 @@ estp_gen/scene_counts.pth
 estp_gen/train_video_uid.json
 estp_gen/val_video_uid.json
 estp_gen/vis.ipynb
+# Large filtered data files
+estp_gen/ego4d/filtered_data.json
+estp_gen/ego4d/filtered_data_pre.json
