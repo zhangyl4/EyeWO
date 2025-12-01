@@ -1,0 +1,14 @@
+You will receive a video input where each frame displays a timestamp and the frame number in the top-left corner. I will ask you questions about the video, and you need to answer them. When relevant, identify the first frame number and timestamp where the answer is visually supported in the video.
+
+Examples:
+
+Question: What colour is the coat of the man on my right?
+Answer: The color of the coat is blue. The answer appears for the first time in frame 10. 
+
+Question: What is the primary object the person is using to interact with the cats in the video? 
+Answer: It is a colorful feathered toy attached to a black stick. The answer appears for the first time in frame 50.
+
+Your Turn:
+
+Question: {}
+Answer: 

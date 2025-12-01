@@ -1,0 +1,89 @@
+You are an AI assistant skilled at generating questions. I will provide you with a detailed description of an ego video, along with the corresponding timestamp.
+
+Your task is to: 
+
+1.. Convert this detailed description into questions from the following angles:
+   - **Object Recognition**: Questions that ask about the category or identity of the object.
+   - **Attribute Perception**: Questions that ask about the attributes (e.g., color, shape, size) of the object.
+   - **Object Localization**: Questions that ask about the position or location of the object relative to other objects.
+   - **Text-Rich Understanding** : Questions that ask about the textual information mentioned in the caption. Note, label, writing, and tag do not indicate the inclusion of textual information. It must have specific textual information.
+   - **Ego Object Localization**: Questions that ask about the object's position relative to yourself.
+   - **Ego Object State Change Recognition**: Questions that ask about changes in the object's position relative to yourself.
+2. Phrased in a way that indicates a desire for future reminders (e.g., "what is ...", "I want to know when...", "when you see ...").
+3. Provide only {NUMBER} best question based on the caption
+4. Ensure that the questions are varied in structure and rich in content.
+5. Generate questions based on the following question format : 
+    - **Q:** Can you remind me of the specific brand written on the cup?
+    - **Q:** Is there any text or label on the cup? Could you let me know?
+    - **Q:** What brand name is printed on the cup?
+    - **Q:** Is there any textual information related to a brand on the cup? Can you remind me?
+6. The generated question is related to an object in the description
+7. Don't use 'video','camera','observer' in question. 
+8. For each question, match the relevant action, such as "when I fold the luggage"
+
+#### Example:
+
+ego video caption:
+Time is 270.0. Action narration is "You fold the luggage.".
+Detailed Description: "With a sense of purpose, you begin to fold the luggage. The beige fabric of the suitcase is well-worn but still sturdy as it sits on the floor in front of you. You methodically work through the steps: first, you gather the edges and bring them together, then you tuck in the straps, ensuring they are neatly tucked away. As you continue, the once sprawling mass of fabric gradually transforms into a compact, manageable size, ready for transport or storage." 
+
+Time is 301.29231. Action narration is "You look around.".
+Detailed Description: "As you look around, the room appears dimly lit with a warm, yellowish hue. The walls are painted in a light beige color, and there's a noticeable shadow cast by an unseen object or person. In front of you, on the floor, lies a large, brown blanket that seems to be spread out, possibly covering something underneath. To your right, part of a white furry pet is visible, its fur appearing soft and fluffy. On the far left side of the frame, a portion of a blue long-sleeved shirt can be seen worn by someone sitting down, their face obscured from view." 
+
+Time is 365.99135. Action narration is "She bags the bag.".
+Detailed Description: "As she bends down, her hand reaches into the white plastic bag. She meticulously sorts through its contents, picking out items and placing them neatly inside a brown paper bag. The room is dimly lit, casting soft shadows around her as she works diligently to organize the belongings in the bags." 
+
+Time is 374.55773. Action narration is "You lift the luggage and put it in the bag.".
+Detailed Description: "With a firm grip, you lift the large brown suitcase from the ground. You carefully position it on top of your beige shoulder bag, making sure that both items are securely placed and balanced for easy transport." 
+
+Time is 412.69225. Action narration is "She closes the bag zip.".
+Detailed Description: "With her right hand, she reaches for the beige bag that rests on her lap. She gently pulls at the zipper with a sense of purpose and care, ensuring it is securely fastened. The zipper glides smoothly over the fabric, and as she completes the action, she turns to face forward, her attention momentarily diverted from the task at hand." 
+
+Time is 467.87971. Action narration is "You lift the bag of luggage.".
+Detailed Description: "With a gentle yet firm grip, you lift the white bag of luggage from its resting place on the floor. The fabric of the bag appears slightly crinkled due to the weight it carries. As you hoist the bag, you notice that it is quite full, suggesting it contains various items for travel or storage." 
+
+Time is 469.82164. Action narration is "You give the bag of luggage to her.".
+Detailed Description: "With a gentle smile, you extend your hand towards the woman standing in front of you. The bag of luggage is securely held in your grasp. As you give it to her, she takes it with both hands and examines its contents before adjusting her grip. Her expression is one of gratitude and satisfaction as she prepares to transport the luggage elsewhere." 
+
+Time is 470.75335. Action narration is "She lifts the luggage.".
+Detailed Description: "With a determined expression, she approaches the large beige suitcase standing upright in the center of the room. Her hands grip the handle firmly and with practiced ease, she lifts it off the ground. The suitcase, sturdy and well-worn from frequent travels, responds to her strength as she maneuvers it across the tiled floor towards the open doorway leading outside." 
+
+Time is 477.92945. Action narration is "She gives back the luggage to you.".
+Detailed Description: "As you approach the woman, she hands over a large, light-colored luggage bag to you. The bag appears sturdy and spacious, suitable for travel. You take it from her with both hands, expressing gratitude as you hold it securely in front of you." 
+
+Time is 479.61994000000004. Action narration is "You carry the luggage.".
+Detailed Description: "As you carry the luggage, your left hand gently grasps its handle, supporting it as you walk. The suitcase is a medium-sized, dark-colored hard-shell with visible signs of wear and tear from frequent use. You move across the room, passing by various objects like a small black bag on the floor to your right and a white plastic chair in front of you. As you progress, the walls around you are adorned with framed pictures, adding a personal touch to the space. In the background, another person can be seen standing near an open doorway, observing your movements." 
+
+Time is 481.93093999999996. Action narration is "You move around.".
+Detailed Description: "As you move around, the room's layout becomes more apparent. The beige floor stretches out in front of you, leading to a set of black-framed glass doors that are slightly ajar. Through these doors, you can see another room with various objects scattered about, including what appears to be a white chair and some items on a table. To your right, there is a metal vent, suggesting an air conditioning or heating system. You notice a piece of paper lying on the floor near the door, and as you walk closer, you reach out and open the door fully." 
+
+Time is 483.34427. Action narration is "You close the door.".
+Detailed Description: "With a sense of purpose, you reach out and close the door gently. The metallic handle clicks into place as the door slides shut, sealing off the room from the outside world. As the door closes, the interior space becomes more intimate, with the sound of the door latch becoming muffled in the enclosed environment. You take a moment to assess your surroundings, taking in the details that make up this personal sanctuary." 
+
+Time is 489.37571. Action narration is "You get out of the house.".
+Detailed Description: "With a sense of urgency, you quickly move towards the front door, grabbing your keys from the side table as you go. You open the door and step outside, closing it behind you with a decisive click. The cool night air hits your face, and you take a deep breath before beginning to walk down the dimly lit street." 
+
+Time is 496.77753. Action narration is "You move along the street.".
+Detailed Description: "As you move along the street, the darkness of the night envelops you. The only sources of light come from the distant buildings and a few scattered street lamps that cast a soft glow on the pavement. You walk with purpose, your feet brushing against the cool surface as you navigate through the quiet streets. The occasional car headlights streak by in the distance, their bright beams cutting through the shadows. The air is crisp and cool, suggesting it might be late autumn or early winter. Your breath is visible in the cold night air, adding to the sense of movement and life amidst the stillness." 
+
+Time is 560.7288293333332. Action narration is "You enter the house.".
+Detailed Description: "With a sense of anticipation, you step into the house. The threshold beneath your feet creaks slightly as you transition from the outdoors to the indoor environment. The interior is warmly lit, casting a cozy glow on the tiled floor and the surrounding walls. To your right, a tall black pillar stands prominently against the backdrop of a dark wall with horizontal slats. Potted plants are neatly arranged along the base of this pillar, their green leaves contrasting with the muted tones of the architecture. As you move forward, the sound of footsteps echoes softly in the quiet space, adding to the atmosphere of entering a private sanctuary." 
+
+questions:
+
+**Task Type: Object Recognition**  
+**Q:** What is the category of the object I lift when I lift the luggage?  
+
+**Task Type: Attribute Perception**  
+**Q:** Can you remind me of the color of the blanket when I look around?  
+
+**Task Type: Object Localization**  
+**Q:** Where is the white furry pet located relative to the blanket when I look around?  
+
+**Task Type: Ego Object Localization**  
+**Q:** Where is the luggage positioned relative to me when I carry it?  
+
+**Task Type: Ego Object State Change Recognition**  
+**Q:** Can you remind me how the luggage changes position when I give it to her?  
+
+**NOTE:** For Text-Rich Understanding, label, writing, and tag do not indicate the inclusion of textual information. Don't generate Text-Rich Understanding tasks without specific textual information. Now, please carefully review the captions and output your questions following the SAME FORMAT as the examples above.

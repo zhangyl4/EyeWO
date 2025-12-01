@@ -1,0 +1,116 @@
+{
+    "video_uid": "0e6fb738-05fc-4dd5-9746-a8e10efe8c20",
+    "conversation": [
+        {
+            "role": "User",
+            "content": "Can you provide a summary of my accomplishments?",
+            "time": 438.2
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 704.0,
+            "start_time": 489.0,
+            "end_time": 704.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 743.0,
+            "start_time": 721.5,
+            "end_time": 743.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 802.0,
+            "start_time": 746.5,
+            "end_time": 802.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 942.0,
+            "start_time": 860.0,
+            "end_time": 942.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 979.5,
+            "start_time": 951.0,
+            "end_time": 979.5
+        },
+        {
+            "role": "User",
+            "content": "Can you show me an example of what I'm doing?",
+            "time": 1084.2
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1195.25,
+            "start_time": 1138.0,
+            "end_time": 1252.5
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1277.5,
+            "start_time": 1270.0,
+            "end_time": 1285.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1506.0,
+            "start_time": 1285.0,
+            "end_time": 1727.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1720.5,
+            "start_time": 1720.0,
+            "end_time": 1721.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1728.0,
+            "start_time": 1722.5,
+            "end_time": 1733.5
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1734.75,
+            "start_time": 1733.5,
+            "end_time": 1736.0
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1760.75,
+            "start_time": 1760.0,
+            "end_time": 1761.5
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1783.25,
+            "start_time": 1778.0,
+            "end_time": 1788.5
+        },
+        {
+            "role": "Assistant",
+            "content": "...",
+            "time": 1798.5,
+            "start_time": 1797.5,
+            "end_time": 1799.5
+        }
+    ],
+    "clip_start_time": 0.5,
+    "clip_end_time": 1799.5,
+    "duration": 1360.3
+}

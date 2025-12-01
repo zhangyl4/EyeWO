@@ -1,0 +1,983 @@
+[
+    {
+        "video_uid": "39d087b0-afc2-47d8-ba91-b70dd8fab90e",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Please explain how to achieve my goal of making rice, dough, and a vegetable dish, starting from the very beginning and detailing each step.",
+                "time": 0.0
+            },
+            {
+                "role": "assistant",
+                "content": "Let's begin by preheating the pots to prepare for cooking.",
+                "time": 0.0210286458333333
+            },
+            {
+                "role": "assistant",
+                "content": "Next, add rice to boiling water in one of the preheated pots.",
+                "time": 1298.594
+            },
+            {
+                "role": "assistant",
+                "content": "Cover the pot of rice to allow it to cook properly.",
+                "time": 1327.0985
+            },
+            {
+                "role": "assistant",
+                "content": "In another pot, add oil to prepare for cooking the vegetables.",
+                "time": 1383.41099
+            },
+            {
+                "role": "assistant",
+                "content": "Add wood to the fire to maintain the heat for cooking.",
+                "time": 1404.91851
+            },
+            {
+                "role": "assistant",
+                "content": "Sieve flour into a tray to prepare for making the dough.",
+                "time": 1430.91046
+            },
+            {
+                "role": "assistant",
+                "content": "Continue to add wood to the fire to keep the temperature consistent.",
+                "time": 1592.63928
+            },
+            {
+                "role": "assistant",
+                "content": "Add green peas to the pot of oil to start cooking the vegetable dish.",
+                "time": 1618.07144
+            },
+            {
+                "role": "assistant",
+                "content": "Keep the fire going by adding more wood as needed.",
+                "time": 1637.9251
+            },
+            {
+                "role": "assistant",
+                "content": "Operate your phone if you need to check a recipe or set a timer.",
+                "time": 1671.75117
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to ensure continuous cooking.",
+                "time": 1682.64137
+            },
+            {
+                "role": "assistant",
+                "content": "Add more green peas to the pot of oil as needed.",
+                "time": 1696.8506
+            },
+            {
+                "role": "assistant",
+                "content": "Maintain the fire by adding wood to keep the cooking process going.",
+                "time": 1705.06802
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the rice to prevent it from sticking and to ensure even cooking.",
+                "time": 1730.80651
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the green peas in the pot to mix them well with the oil.",
+                "time": 1743.1957
+            },
+            {
+                "role": "assistant",
+                "content": "Scoop out part of the sieved dough to begin shaping it.",
+                "time": 1750.37289
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to keep the heat steady.",
+                "time": 1798.26472
+            },
+            {
+                "role": "assistant",
+                "content": "Add vegetables to the pot with green peas to continue preparing the vegetable dish.",
+                "time": 1855.1873
+            },
+            {
+                "role": "assistant",
+                "content": "Ensure the fire is maintained by adding more wood.",
+                "time": 1907.81831
+            },
+            {
+                "role": "assistant",
+                "content": "Scoop froth from the surface of the pot of rice to clean it up.",
+                "time": 1930.38299
+            },
+            {
+                "role": "assistant",
+                "content": "Mix water with flour to prepare the dough for kneading.",
+                "time": 1935.57895
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the rice again to ensure it's cooking evenly.",
+                "time": 2136.65128
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the vegetables in the pot to mix them well with the green peas.",
+                "time": 2154.23627
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to maintain the cooking temperature.",
+                "time": 2179.03878
+            },
+            {
+                "role": "assistant",
+                "content": "Continue mixing flour with water to prepare the dough.",
+                "time": 2183.84214
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to keep the heat consistent.",
+                "time": 2402.66964
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the rice from the fire once it's fully cooked.",
+                "time": 2409.90028
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to continue cooking the vegetables.",
+                "time": 2435.32028
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the dough to develop its texture and elasticity.",
+                "time": 2455.94219
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to maintain the cooking process.",
+                "time": 2765.31524
+            },
+            {
+                "role": "assistant",
+                "content": "Sieve the dough into a tray to prepare it for further use.",
+                "time": 2780.35749
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the vegetables to ensure they're cooking evenly.",
+                "time": 2833.11082
+            },
+            {
+                "role": "assistant",
+                "content": "Wash your hands to maintain hygiene while handling food.",
+                "time": 2863.61695
+            },
+            {
+                "role": "assistant",
+                "content": "Add salt to the vegetables to season them.",
+                "time": 2935.0824
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to keep the cooking temperature steady.",
+                "time": 2992.8792850000004
+            },
+            {
+                "role": "assistant",
+                "content": "Stir the vegetables again to mix in the salt and ensure even cooking.",
+                "time": 3009.95097
+            },
+            {
+                "role": "assistant",
+                "content": "Clean the stove to maintain a tidy cooking area.",
+                "time": 3028.37792
+            },
+            {
+                "role": "assistant",
+                "content": "Add more wood to the fire to continue the cooking process.",
+                "time": 3114.158
+            },
+            {
+                "role": "assistant",
+                "content": "Operate your phone if you need to check on anything or set a timer.",
+                "time": 3154.709
+            }
+        ],
+        "duration": 3225.5666666666666,
+        "start_time": 0.0210286458333333,
+        "end_time": 3225.5876953125
+    },
+    {
+        "video_uid": "39d087b0-afc2-47d8-ba91-b70dd8fab90e",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Please explain how to achieve my goal of preheating pots, starting from the very beginning and detailing each step.",
+                "time": 1068.848
+            },
+            {
+                "role": "assistant",
+                "content": "To start, add wood to the fire to create a strong heat source.",
+                "time": 1069.348
+            },
+            {
+                "role": "assistant",
+                "content": "Next, set stands on the fireplace to securely hold the pots above the fire.",
+                "time": 1158.54893
+            },
+            {
+                "role": "assistant",
+                "content": "Then, boil water in one of the pots to begin the heating process.",
+                "time": 1189.912
+            },
+            {
+                "role": "assistant",
+                "content": "After that, place the wok on the fire to heat it up for cooking.",
+                "time": 1204.66377
+            },
+            {
+                "role": "assistant",
+                "content": "Once the wok is heated, clean it with a cloth to remove any debris or residue.",
+                "time": 1214.375
+            },
+            {
+                "role": "assistant",
+                "content": "Lastly, adjust the wood in the fire to maintain the desired temperature for cooking.",
+                "time": 1275.59286
+            }
+        ],
+        "duration": 229.2460000000001,
+        "start_time": 1069.348,
+        "end_time": 1298.594
+    },
+    {
+        "video_uid": "39d087b0-afc2-47d8-ba91-b70dd8fab90e",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What comes after this step in the process of sieving flour into a tray? Please describe thoroughly.",
+                "time": 1550.6220534518347
+            },
+            {
+                "role": "assistant",
+                "content": "After sieving the flour into the tray, the next step is to adjust the wood in the fire. This ensures the heat is properly managed for the next stages of your process.",
+                "time": 1550.75814
+            },
+            {
+                "role": "assistant",
+                "content": "Remember, sieving the flour is crucial for removing lumps and aerating it, which contributes to a finer texture in your final product.",
+                "time": 1561.97774
+            }
+        ],
+        "duration": 160.2385700000002,
+        "start_time": 1432.40071,
+        "end_time": 1592.63928
+    },
+    {
+        "video_uid": "39d087b0-afc2-47d8-ba91-b70dd8fab90e",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What should be done next to complete the process of mixing water with flour? Please elaborate.",
+                "time": 2006.8068957025773
+            },
+            {
+                "role": "assistant",
+                "content": "To continue, you should add water to the flour. This step is crucial for initiating the dough formation process.",
+                "time": 2006.86976
+            },
+            {
+                "role": "assistant",
+                "content": "After adding water, knead the flour into dough. Kneading helps to develop the gluten in the flour, which is essential for the dough's elasticity and texture.",
+                "time": 2009.04106
+            },
+            {
+                "role": "assistant",
+                "content": "Next, add more water to the flour. This ensures that the dough reaches the desired consistency.",
+                "time": 2016.56352
+            },
+            {
+                "role": "assistant",
+                "content": "Continue by kneading the flour into dough. This step further develops the dough's structure and texture.",
+                "time": 2019.236
+            },
+            {
+                "role": "assistant",
+                "content": "Add water to the flour once more. This helps to adjust the dough's moisture level for optimal handling.",
+                "time": 2056.05168
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the flour into dough again. This ensures that the dough is well-mixed and has a uniform consistency.",
+                "time": 2058.91305
+            },
+            {
+                "role": "assistant",
+                "content": "Add water to the flour as needed. This step is important for achieving the perfect dough consistency.",
+                "time": 2066.39996
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the flour into dough thoroughly. Proper kneading is key to creating a smooth and elastic dough.",
+                "time": 2068.50977
+            },
+            {
+                "role": "assistant",
+                "content": "Add water to the flour to ensure the dough is at the right moisture level. This is crucial for the dough's workability.",
+                "time": 2085.44506
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, knead the flour into dough one last time. This ensures that your dough is perfectly prepared for the next steps in your recipe.",
+                "time": 2088.2801
+            }
+        ],
+        "duration": 179.27781000000004,
+        "start_time": 1957.37347,
+        "end_time": 2136.65128
+    },
+    {
+        "video_uid": "39d087b0-afc2-47d8-ba91-b70dd8fab90e",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What are the following steps for mixing flour with water successfully? Provide specific actions and details.",
+                "time": 2214.0276635366204
+            },
+            {
+                "role": "assistant",
+                "content": "You've already added flour to the tray and water to the flour, and started kneading the mixture into dough. Next, you should add more water to the flour to achieve the right consistency.",
+                "time": 2214.06903
+            },
+            {
+                "role": "assistant",
+                "content": "Continue kneading the flour into dough to ensure it's well mixed and the texture is uniform.",
+                "time": 2216.78928
+            },
+            {
+                "role": "assistant",
+                "content": "If the dough is too sticky, add a bit more flour to the dough to adjust the consistency.",
+                "time": 2228.74904
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the additional flour into the dough thoroughly to integrate it fully.",
+                "time": 2232.42017
+            },
+            {
+                "role": "assistant",
+                "content": "If the dough feels too dry, add a little more water to the flour mixture to reach the desired consistency.",
+                "time": 2249.44496
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the dough again after adding water to ensure the moisture is evenly distributed.",
+                "time": 2252.69836
+            },
+            {
+                "role": "assistant",
+                "content": "Check the dough's rise in the pot to see if it's ready for the next step. A good rise indicates the dough is fermenting properly.",
+                "time": 2278.59501
+            },
+            {
+                "role": "assistant",
+                "content": "Give the dough a final knead to prepare it for shaping or baking, ensuring it's smooth and elastic.",
+                "time": 2288.00827
+            }
+        ],
+        "duration": 215.46779000000015,
+        "start_time": 2187.20185,
+        "end_time": 2402.66964
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Please provide me with a detailed step-by-step guide to achieving my goal, such as deep frying dough.",
+                "time": 0.0
+            },
+            {
+                "role": "assistant",
+                "content": "First, ensure your hands are clean by washing them thoroughly. This is crucial for hygiene.",
+                "time": 0.0210286458333333
+            },
+            {
+                "role": "assistant",
+                "content": "Next, prepare your dough according to your recipe. This is the base of your deep-fried dish.",
+                "time": 20.38755
+            },
+            {
+                "role": "assistant",
+                "content": "Grate some carrot to add flavor and texture to your dish. This step is optional based on your recipe.",
+                "time": 65.32388
+            },
+            {
+                "role": "assistant",
+                "content": "After handling ingredients, wash your hands again to maintain cleanliness.",
+                "time": 201.2653
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare your dough further if needed, ensuring it's ready for frying.",
+                "time": 205.37194
+            },
+            {
+                "role": "assistant",
+                "content": "Grate more carrot if your recipe requires additional flavor.",
+                "time": 376.19277
+            },
+            {
+                "role": "assistant",
+                "content": "Wash your hands once more to ensure they're clean before proceeding.",
+                "time": 514.42955
+            },
+            {
+                "role": "assistant",
+                "content": "Operate your phone if you need to check the recipe or set a timer for frying.",
+                "time": 523.03982
+            },
+            {
+                "role": "assistant",
+                "content": "Clean your hands after using your phone to keep everything hygienic.",
+                "time": 531.486
+            },
+            {
+                "role": "assistant",
+                "content": "Turn the dough in the frying pan to ensure it cooks evenly on all sides.",
+                "time": 540.38388
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare the carrot for adding to your dish, ensuring it's ready when needed.",
+                "time": 595.50074
+            },
+            {
+                "role": "assistant",
+                "content": "Operate your phone again if you need to check the recipe or set another timer.",
+                "time": 841.10825
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare the dough for the next batch or for additional frying.",
+                "time": 847.73465
+            },
+            {
+                "role": "assistant",
+                "content": "Clean the countertop to maintain a tidy workspace.",
+                "time": 1013.42572
+            },
+            {
+                "role": "assistant",
+                "content": "Remove a lemon from the refrigerator for adding zest or juice to your dish.",
+                "time": 1044.16
+            },
+            {
+                "role": "assistant",
+                "content": "Remove juice from the refrigerator if your recipe calls for it.",
+                "time": 1065.12957
+            },
+            {
+                "role": "assistant",
+                "content": "Return the oil to the shelf if you're done using it or need to switch oils.",
+                "time": 1083.25382
+            },
+            {
+                "role": "assistant",
+                "content": "Check the dough to ensure it's ready for the next step in your recipe.",
+                "time": 1092.90958
+            },
+            {
+                "role": "assistant",
+                "content": "Wash the peeler after use to keep your tools clean.",
+                "time": 1168.47708
+            },
+            {
+                "role": "assistant",
+                "content": "Clean the cooker to maintain a safe and tidy cooking environment.",
+                "time": 1188.21833
+            },
+            {
+                "role": "assistant",
+                "content": "Perform any other necessary tasks to prepare for the next steps in your recipe.",
+                "time": 1224.28596
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare the lemon for adding to your dish, ensuring it's ready when needed.",
+                "time": 1985.00457
+            },
+            {
+                "role": "assistant",
+                "content": "Turn the dough in the frying pan again to ensure even cooking.",
+                "time": 2074.25633
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare more lemon if your recipe requires additional zest or juice.",
+                "time": 2083.71874
+            },
+            {
+                "role": "assistant",
+                "content": "Turn the dough in the frying pan once more to ensure it's perfectly cooked.",
+                "time": 2165.59581
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the lemon pulp from the squeezer to add fresh juice to your dish.",
+                "time": 2177.14216
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, remove the fried dough from the frying pan. Your dish is now ready to be served!",
+                "time": 2235.81339
+            }
+        ],
+        "duration": 2314.0666666666666,
+        "start_time": 0.0210286458333333,
+        "end_time": 2314.0876953125
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "How can I achieve my goal, such as grating carrots, step by step? Can you explain each stage?",
+                "time": 67.33541
+            },
+            {
+                "role": "assistant",
+                "content": "Sure! Let's begin by grating the carrots. Use a grater to shred the carrots into fine pieces.",
+                "time": 67.83541
+            },
+            {
+                "role": "assistant",
+                "content": "After grating, you might want to taste a small piece of the carrot to ensure it's fresh and has the desired flavor.",
+                "time": 173.10353
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, scrape any remaining carrot pieces off the grater to collect all the grated carrot for your recipe.",
+                "time": 182.692
+            }
+        ],
+        "duration": 133.42989,
+        "start_time": 67.83541,
+        "end_time": 201.2653
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What comes after this step in the process of preparing dough? Please describe thoroughly.",
+                "time": 328.73032425126445
+            },
+            {
+                "role": "assistant",
+                "content": "You've completed the steps of removing the fried dough from the pan, frying the dough in oil, and covering the pan. The next step is to add the dough to the batter. This involves carefully placing the dough into the prepared batter, ensuring it's fully coated for the next stage of cooking or baking.",
+                "time": 331.72
+            }
+        ],
+        "duration": 168.51109,
+        "start_time": 207.68168,
+        "end_time": 376.19277
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What are the following steps for preparing carrots successfully? Provide specific actions and details.",
+                "time": 682.8602032581001
+            },
+            {
+                "role": "assistant",
+                "content": "Great progress so far! You've already cut the carrot's stem and root, peeled the carrot, and rinsed it. The next step is to grate the carrot. Use a grater to shred the carrot into fine pieces, which can be used in salads, baking, or as a garnish.",
+                "time": 683.90143
+            },
+            {
+                "role": "assistant",
+                "content": "After grating, carefully scrape the carrot off the grater. This ensures you collect all the grated carrot efficiently.",
+                "time": 804.41174
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, rinse the grater under running water to clean off any remaining carrot pieces. This keeps your tools ready for next use and maintains hygiene.",
+                "time": 830.47059
+            }
+        ],
+        "duration": 243.89012000000002,
+        "start_time": 597.21813,
+        "end_time": 841.10825
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What should I do first, second, and so on to accomplish my goal, like preparing dough?",
+                "time": 854.56768
+            },
+            {
+                "role": "assistant",
+                "content": "First, remove the fried dough from the pan to prepare for the next steps.",
+                "time": 855.06768
+            },
+            {
+                "role": "assistant",
+                "content": "Next, fry the dough in oil until it's golden and crispy.",
+                "time": 903.77961
+            },
+            {
+                "role": "assistant",
+                "content": "Then, add the dough to the batter to coat it evenly before frying.",
+                "time": 968.13054
+            },
+            {
+                "role": "assistant",
+                "content": "After frying, taste the fried dough to ensure it's cooked to your liking.",
+                "time": 1008.93761
+            }
+        ],
+        "duration": 158.35803999999996,
+        "start_time": 855.06768,
+        "end_time": 1013.42572
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What is the next thing I need to do to check the dough? Include any important details.",
+                "time": 1134.9248819106929
+            },
+            {
+                "role": "assistant",
+                "content": "You've already turned the dough in the pan and adjusted the air extractor. The next step is to check the dough to ensure it's rising properly and has the right consistency.",
+                "time": 1136.82292
+            },
+            {
+                "role": "assistant",
+                "content": "After checking, you'll need to stir the dough in the batter. This helps to evenly distribute the ingredients and ensures a uniform texture throughout.",
+                "time": 1144.13368
+            }
+        ],
+        "duration": 67.82947999999988,
+        "start_time": 1100.6476,
+        "end_time": 1168.47708
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What are the steps I need to follow to successfully accomplish my goal, like frying dough?",
+                "time": 1225.77525
+            },
+            {
+                "role": "assistant",
+                "content": "First, remove the fried dough from the pan to make space for the next batch.",
+                "time": 1226.27525
+            },
+            {
+                "role": "assistant",
+                "content": "Next, fry the dough in oil until it's golden brown. Ensure the oil is at the right temperature for frying.",
+                "time": 1293.6419
+            },
+            {
+                "role": "assistant",
+                "content": "Continue frying the dough in oil, monitoring its color and texture for the perfect fry.",
+                "time": 1342.82267
+            },
+            {
+                "role": "assistant",
+                "content": "Carefully turn the dough in the pan to ensure it cooks evenly on all sides.",
+                "time": 1431.36235
+            },
+            {
+                "role": "assistant",
+                "content": "Once the dough is fried to perfection, remove it from the pan.",
+                "time": 1494.11101
+            },
+            {
+                "role": "assistant",
+                "content": "Proceed to fry the next batch of dough in oil, maintaining consistent heat.",
+                "time": 1585.54831
+            },
+            {
+                "role": "assistant",
+                "content": "After frying, remove the dough from the pan to prevent overcooking.",
+                "time": 1628.61622
+            },
+            {
+                "role": "assistant",
+                "content": "Continue the process by frying more dough in oil, ensuring each piece is evenly cooked.",
+                "time": 1643.37872
+            },
+            {
+                "role": "assistant",
+                "content": "Rinse your hands to maintain cleanliness and hygiene during the cooking process.",
+                "time": 1657.24353
+            },
+            {
+                "role": "assistant",
+                "content": "Turn the dough in the pan to achieve an even golden color on all sides.",
+                "time": 1703.464
+            },
+            {
+                "role": "assistant",
+                "content": "Adjust the air extractor to manage smoke and odors from frying.",
+                "time": 1758.73738
+            },
+            {
+                "role": "assistant",
+                "content": "Check the dough in the pan to ensure it's cooking as expected.",
+                "time": 1763.45357
+            },
+            {
+                "role": "assistant",
+                "content": "Adjust the air extractor settings as needed to maintain a comfortable cooking environment.",
+                "time": 1818.52046
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the fried dough from the pan once it's perfectly cooked.",
+                "time": 1833.24474
+            },
+            {
+                "role": "assistant",
+                "content": "Turn off the stove to stop the cooking process and ensure safety.",
+                "time": 1940.72475
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, fry the batter in oil if you have more to cook, ensuring each piece is deliciously golden.",
+                "time": 1943.12647
+            }
+        ],
+        "duration": 758.7293200000001,
+        "start_time": 1226.27525,
+        "end_time": 1985.00457
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What should be done next to complete the process of preparing lemon? Please elaborate.",
+                "time": 2005.2407488656042
+            },
+            {
+                "role": "assistant",
+                "content": "You've already cut the lemon in half. The next step is to squeeze the juice from the lemon. This will extract the flavorful liquid needed for your recipe.",
+                "time": 2005.3273
+            },
+            {
+                "role": "assistant",
+                "content": "After squeezing the juice, you should dispose of the lemon properly. This ensures cleanliness and prepares your workspace for the next steps.",
+                "time": 2062.1961
+            }
+        ],
+        "duration": 86.41013000000021,
+        "start_time": 1987.8462,
+        "end_time": 2074.25633
+    },
+    {
+        "video_uid": "2f6da5f6-e26c-4ac3-8f71-12386f7588e2",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What comes after this step in the process of preparing lemon? Please describe thoroughly.",
+                "time": 2161.882992568417
+            },
+            {
+                "role": "assistant",
+                "content": "You've already cut the lemon in half and squeezed the juice out. The next step is to rinse your hands to remove any lemon juice or residue, ensuring cleanliness for the next steps in your preparation.",
+                "time": 2162.00857
+            }
+        ],
+        "duration": 81.11908999999969,
+        "start_time": 2084.47672,
+        "end_time": 2165.59581
+    },
+    {
+        "video_uid": "09bccca1-368b-4776-9433-3c8835837110",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What are the following steps for making pickles successfully? Provide specific actions and details.",
+                "time": 40.29460143885761
+            },
+            {
+                "role": "assistant",
+                "content": "You've already gathered the ingredients, washed the zucchini, and sliced off the blossom end. Next, dispose of the remnants properly.",
+                "time": 40.30353
+            },
+            {
+                "role": "assistant",
+                "content": "Now, smash the zucchini on the chopping board to prepare it for dicing.",
+                "time": 46.64435
+            },
+            {
+                "role": "assistant",
+                "content": "Dice the zucchini into thin, even pieces to ensure uniform pickling.",
+                "time": 72.50836
+            },
+            {
+                "role": "assistant",
+                "content": "Grate the ginger using a grater to add flavor to your pickles.",
+                "time": 96.37883
+            },
+            {
+                "role": "assistant",
+                "content": "Pour the grated ginger into a bowl, ready to be mixed with other ingredients.",
+                "time": 172.16379
+            },
+            {
+                "role": "assistant",
+                "content": "Clean your hands thoroughly to maintain hygiene during the pickle-making process.",
+                "time": 197.19842
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare the brine in a bowl, which will serve as the pickling solution.",
+                "time": 206.11
+            },
+            {
+                "role": "assistant",
+                "content": "Mix the brine with the sliced zucchini to start the pickling process.",
+                "time": 266.83504
+            }
+        ],
+        "duration": 309.3666666666667,
+        "start_time": 0.0210286458333333,
+        "end_time": 309.3876953125
+    },
+    {
+        "video_uid": "09bccca1-368b-4776-9433-3c8835837110",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Please provide me with a detailed step-by-step guide to achieving my goal, such as making brine in a bowl.",
+                "time": 205.61088
+            },
+            {
+                "role": "assistant",
+                "content": "To start making the brine, first add soy sauce to the grated ginger in your bowl.",
+                "time": 206.11088
+            },
+            {
+                "role": "assistant",
+                "content": "Next, incorporate salt into the mixture to enhance the flavor and preservation properties of the brine.",
+                "time": 223.95261
+            },
+            {
+                "role": "assistant",
+                "content": "Then, add sesame oil to the brine for a rich, nutty aroma and flavor.",
+                "time": 232.30028
+            },
+            {
+                "role": "assistant",
+                "content": "After that, pour in cider vinegar to introduce acidity, which is essential for the brine's effectiveness.",
+                "time": 239.20225
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, stir the brine thoroughly to ensure all ingredients are well combined and the flavors are evenly distributed.",
+                "time": 250.47776
+            }
+        ],
+        "duration": 60.72415999999998,
+        "start_time": 206.11088,
+        "end_time": 266.83504
+    },
+    {
+        "video_uid": "0c192ca8-1ede-4ef0-a05e-2f4151b6bdfc",
+        "conversation": [
+            {
+                "role": "user",
+                "content": "What are the steps I need to follow to successfully accomplish my goal, like making bread?",
+                "time": 0.0
+            },
+            {
+                "role": "assistant",
+                "content": "First, gather all necessary baking pan covers to prepare for the baking process.",
+                "time": 0.0210286458333333
+            },
+            {
+                "role": "assistant",
+                "content": "Next, cool the oven heat by sprinkling water inside to create a suitable environment for baking.",
+                "time": 50.0
+            },
+            {
+                "role": "assistant",
+                "content": "Then, carefully place the doughs into the oven for baking.",
+                "time": 72.64
+            },
+            {
+                "role": "assistant",
+                "content": "Adjust the baking tray inside the oven to ensure even baking.",
+                "time": 87.838
+            },
+            {
+                "role": "assistant",
+                "content": "Cool the oven heat again with water to maintain the right temperature.",
+                "time": 93.43638
+            },
+            {
+                "role": "assistant",
+                "content": "Place the doughs back into the oven for further baking.",
+                "time": 111.1138
+            },
+            {
+                "role": "assistant",
+                "content": "Use a rod to adjust the baking pan inside the oven for optimal positioning.",
+                "time": 130.402
+            },
+            {
+                "role": "assistant",
+                "content": "After baking, place the doughs on the table to cool down.",
+                "time": 138.742
+            },
+            {
+                "role": "assistant",
+                "content": "Remove the dough cover to check the bread's readiness.",
+                "time": 151.09
+            },
+            {
+                "role": "assistant",
+                "content": "Place the doughs back into the oven if further baking is needed.",
+                "time": 162.394
+            },
+            {
+                "role": "assistant",
+                "content": "Adjust the baking pan in the oven using a rod for the final baking phase.",
+                "time": 172.47237
+            },
+            {
+                "role": "assistant",
+                "content": "Knead the dough in your hands to prepare it for the next steps.",
+                "time": 177.928
+            },
+            {
+                "role": "assistant",
+                "content": "Prepare the dough in a mixer to ensure it's well mixed and ready for shaping.",
+                "time": 193.462
+            },
+            {
+                "role": "assistant",
+                "content": "Wrap the dough in a cloth to let it rest and rise.",
+                "time": 214.005
+            },
+            {
+                "role": "assistant",
+                "content": "Finally, prepare the wrapped dough in a dough cutter for shaping before the final baking.",
+                "time": 266.216
+            }
+        ],
+        "duration": 282.9666666666667,
+        "start_time": 0.0210286458333333,
+        "end_time": 282.9876953125
+    }
+]

@@ -1,0 +1,65 @@
+You are an AI assistant with expertise in generating insightful and contextually relevant questions and answers. I will provide you with the subject and a detailed description of an ego video, along with the corresponding timestamp. Your task is to:
+
+1. **Identify Objects and Their Functions:** Analyze the description to identify key objects and understand their functions or roles within the context of the video.
+2. **Generate Questions and Answers:** Create questions and corresponding answers that focus on the functionality of these objects. The questions should be framed from two primary angles:
+   - **Information Function:** The user needs specific information to accomplish a task, and the object's function or state provides that information. When the object appears, directly answer the user's question with the required information.
+   - **Object Function:** The user needs to interact with or locate an object to accomplish a task. When the object appears, provide its relative position and guide the user on how to use it.
+3. **Question-Answer Pair Creation:** Ensure that the questions are varied in structure, rich in content, and directly related to the user's intent or goal. Avoid mentioning specific items in the questions; instead, focus on the user's purpose or desired outcome.
+4. **Output Format:** Provide only the {NUMBER} best question-answer pairs based on the description. Each pair should be formatted as follows:
+   - **Task Type:** [Type of Question]
+   - **Question:** [User's Question]
+   - **Answer:** [Corresponding Answer]
+   - **Time:** [Corresponding Time]
+5. Don't have any objects in the question, just ask through the plan.
+6. Generate questions based on the following question format:
+   1. I need to clean up the kitchen. Where should I start?
+   2. What are some tips for repairing a lawn mower? 
+   3. I need to repair my lawn mower. What should I do?  
+   4. Could you provide some advice on fixing a lawn mower?
+   5. Do you have any suggestions on where to find the tools for tightening the lawn mower screws?
+   6. I need to prepare some vegetables. Where should I go?
+   7. I need to prepare vegetables. Where would you recommend I go?
+7. List the core items for the problem and answer.
+
+**Additional Guidelines:**
+- **Avoid Forbidden Words:** Do not use the words 'video', 'camera', or 'observer' in your questions or answers.
+- **User-Centric Questions:** Ensure that the questions express what the user wants to do or achieve, without directly mentioning specific items.
+- **Contextual Relevance:** The questions and answers should be highly relevant to the context provided in the video description.
+
+**Example:**
+
+Video Subject: Car mechanic  
+Time: 57.80283266666667  
+Detailed Description: "The video captures a first-person perspective of someone working in a garage or workshop environment. The scene starts with the person holding what appears to be a metal tool, possibly a wrench, and standing near a yellow riding lawn mower on a red workbench. Various tools and equipment are scattered around, including a red toolbox, a green bucket, and other items like a tire and a red cloth. As the video progresses, the camera shifts slightly, focusing more on the yellow lawn mower. The individual then moves closer to the lawn mower, positioning their hands underneath it. They proceed to open the hood of the lawn mower, revealing its engine compartment. Throughout this process, the surrounding objects remain relatively static, with the focus primarily on the interaction between the person and the lawn mower. The camera's movement is subtle, mainly adjusting for better visibility of the lawn mower's engine area as the person works. There is no significant change in the positions of other objects in the immediate vicinity; they maintain their original placements. The lighting remains consistent, indicating that the activity takes place indoors under artificial light."
+
+Time: 212.78490266666668  
+Detailed Description: "The video shows a first-person perspective of an individual working on a yellow lawn mower in a garage or workshop setting. The lawn mower is positioned centrally and occupies most of the frame. Various tools and equipment are scattered around, including a red tool chest to the right, a green bucket near the back wall, and other items such as a tire and a metal hoop on the floor. The person's hands are actively engaged with parts of the lawn mower, particularly focusing on the engine area which is open. To the left, there is a hose reel and some tools laid out on the ground. The camera angle remains mostly fixed, but minor adjustments are made to capture different angles of the work being done. There is slight movement of the camera, likely due to the operator’s hand movements, adjusting to show more details of the task at hand. As the person works, objects like the battery or charger in their hand move closer to the camera, becoming clearer and more central in the view. The background elements remain relatively static except for any changes caused by the person's actions, such as moving tools or parts of the mower. The primary interaction is between the person's hands and the lawn mower components. At one point, the person appears to be using a handheld device, possibly a diagnostic tool or a small power drill, interacting with specific parts of the mower. The positioning of the hands suggests they are performing tasks like tightening screws or checking connections within the engine compartment."
+
+### Step 1: Identify Objects and Their Functions
+1. **Yellow Lawn Mower:** Central object being repaired; its engine compartment is open for maintenance.
+2. **Red Toolbox:** Contains tools needed for the repair; located to the right of the workspace.
+3. **Green Bucket:** Used for waste or unused parts; positioned near the back wall.
+4. **Hose Reel:** Possibly used for cleaning or maintenance; located to the left of the workspace.
+5. **Handheld Device (Diagnostic Tool/Power Drill):** Used for checking connections or tightening screws within the engine compartment.
+6. **Red Cloth:** Likely used for cleaning or wiping parts; placed near the workbench.
+
+
+
+###Step 2 : Generate Questions and Answers:
+
+- **Task Type:** Object Function
+- **Question:** I need to keep my workspace clean. Can you help me?
+- **Answer:** The designated area for waste or unused parts is near the back wall, slightly to the right of the central object. Move to that area and place the items there.
+- **Time:** 212.78490266666668
+
+- **Task Type:** Information Function
+- **Question:** I want to repair the lawn mower. Can you give me some tips?
+- **Answer:** The hood of the mower is open, the lights are stable, and repairs can begin.
+- **Time:** 57.80283266666667
+
+
+**Enhanced Prompt Notes:**
+- **Clarity and Precision:** The enhanced prompt provides clearer instructions on how to generate questions and answers, emphasizing the need for contextual relevance and user-centric questions.
+- **Structured Output:** The format for the output is more structured, ensuring consistency and readability.
+- **Avoidance of Forbidden Words:** The prompt explicitly instructs the AI to avoid using certain words, ensuring that the questions and answers remain focused on the user's intent rather than the medium of the video.
+- **Rich Content:** The enhanced prompt encourages the creation of varied and rich content, ensuring that the questions and answers are not repetitive and cover a wide range of functionalities.

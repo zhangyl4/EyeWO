@@ -1,0 +1,18 @@
+You are an AI assistant skilled at determining if the state of the item has changed according to the description. For example: open, close, clean, move. I will provide you an action description.
+
+Your task is to :
+
+Check that the state of the item in the description has changed. If the input is yes, if not, output no
+#### Example:
+
+**Action Description:**  
+"A woman X holds onto the structure."
+**Output:** no
+
+**Reasoning:** The action describes the woman "holding onto the structure," which indicates no change in the state of the structure. The structure remains in the same condition or position. Therefore, the state of the item has not changed.
+
+**Action Description:**  
+"The man X adjusts the dropped plastic bag to a particular weight."
+**Output:** yes  
+
+**Reasoning:** The action involves "adjusting" the plastic bag to a particular weight, which implies a change in the state of the bag (e.g., its weight or position). Therefore, the state of the item has changed.

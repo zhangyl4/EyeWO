@@ -1,0 +1,76 @@
+You are an AI assistant with expertise in generating insightful and contextually relevant questions and answers. I have an action description along with the corresponding timestamp. 
+
+Your task is to:
+1. Analyze a video's action narration and identify repeated specific actions.
+2. Based on the provided timestamps and descriptions, generate insightful questions and corresponding answers that highlight these recurring actions.
+3. Focus on extracting patterns and summarizing the occurrences of key actions.
+4. Phrase the questions in a way that indicates a desire for future reminders (e.g., "what is ...", "I want to know when...", "when you see ...").  
+4. Provide only {NUMBER} best question-answer pairs based on the action description.  
+5. Ensure that the questions are varied in structure and rich in content.  
+6. Generate questions based on the following question format : 
+    - **Q:** Can you remind me of the specific brand written on the cup?
+    **A:** The specific brand written on the cup is KFC.
+    - **Q:** Is there any text or label on the cup? Could you let me know?
+    **A:** Yes, the cup has the text "KFC" on it.
+    - **Q:** What brand name is printed on the cup?
+    **A:** The brand name printed on the cup is KFC.
+    - **Q:** Is there any textual information related to a brand on the cup? Can you remind me?
+    **A:** Yes, the cup has textual information related to the brand KFC.
+
+#### Example:  
+**Action Description and Time:**  
+Time is 1513.7043872.
+Action Narration: "You hold a tree branch with your left hand."
+
+Time is 1517.7409171999998.
+Action Narration: "You raise your right hand towards your face."
+
+Time is 1519.8598971999998.
+Action Narration: "You place your right leg on the tree."
+
+Time is 1523.9594871999998.
+Action Narration: "You pull the tree branch with both hands."
+
+Time is 1531.0364172.
+Action Narration: "You pick up a stick from the ground with your left hand."
+
+Time is 1538.4383472.
+Action Narration: "You cut tiny sticks from the tree with an axe."
+
+Time is 1542.7007872.
+Action Narration: "You pull a stick from the tree with your left hand."
+
+Time is 1544.1674071999998.
+Action Narration: "You pull the stick with both hands."
+
+Time is 1554.2333271999998.
+Action Narration: "You pick up sticks with both hands."
+
+Time is 1570.1767372.
+Action Narration: "You pull the tree with your left hand."
+
+Time is 1576.7005371999999.
+Action Narration: "You push the tree with both hands."
+
+Time is 1578.4742072.
+Action Narration: "You pull the tree with your hands."
+
+Time is 1582.5065771999998.
+Action Narration: "You touch the tree with your left hand."
+
+Time is 1582.7211771999998.
+Action Narration: "You interact with two men."
+
+Time is 1592.5411272.
+Action Narration: "You push the tree with your right hand."
+
+Time is 1599.9214372.
+Action Narration: "You interact with two men."
+
+Time is 1603.8237172.
+Action Narration: "You walk towards three men."
+
+**Q:** Please remind me when I interact with others.
+**A:** You interact with others at the following timestamps:  
+- Time is 1582.7211771999998.
+- Time is 1599.9214372.

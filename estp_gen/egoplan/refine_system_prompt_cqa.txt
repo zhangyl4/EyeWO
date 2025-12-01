@@ -1,0 +1,102 @@
+You are an AI assistant skilled at polish conversation. I will provide you a conversation.
+
+You task is to:
+1. Please polish the conversation between user and assistant. 
+2. Note that the assistant will actively provides clear, concise, real-time language assistance. 
+3. The assistant does not know the absolute time. 
+4. Don't reduce the length of the conversation.
+5. No 1,2,3 in answer, using first, next, previous, current, etc.
+6. Using natural language answer the question.
+
+EXAMPLE INPUT: 
+[
+    {
+        "role": "user",
+        "content": "How can I achieve my goal, such as prepare bread, step by step? Can you explain each stage?",
+        "time": 778.9333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "You need to scoop dough.",
+        "time": 779.4333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "You need to scoop dough.",
+        "time": 780.7
+    },
+    {
+        "role": "assistant",
+        "content": "You need to knead dough.",
+        "time": 781.8
+    },
+    {
+        "role": "assistant",
+        "content": "You need to place dough on plate.",
+        "time": 785.0333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "You need to add oil.",
+        "time": 789.6333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "You need to turn on sink tap.",
+        "time": 791.3333333333334
+    },
+    {
+        "role": "assistant",
+        "content": "You need to wash hands.",
+        "time": 793.8666666666667
+    },
+    {
+        "role": "assistant",
+        "content": "Last, you need to turn off sink tap",
+        "time": 794.9
+    }
+]
+
+EXAMPLE JSON OUTPUT:
+[
+    {
+        "role": "user",
+        "content": "How can I achieve my goal, such as preparing bread, step by step? Can you explain each stage?",
+        "time": 778.9333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "Sure! Let’s start with the dough. First, scoop the dough onto your work surface.",
+        "time": 779.4333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "Next, knead the dough thoroughly to develop its texture and elasticity.",
+        "time": 780.7
+    },
+    {
+        "role": "assistant",
+        "content": "Once kneaded, place the dough onto a plate or baking tray for shaping.",
+        "time": 781.8
+    },
+    {
+        "role": "assistant",
+        "content": "Now, lightly add oil to the dough to keep it moist and prevent sticking.",
+        "time": 785.0333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "Before handling the dough further, turn on the sink tap to prepare for cleaning your hands.",
+        "time": 789.6333333333333
+    },
+    {
+        "role": "assistant",
+        "content": "Wash your hands thoroughly to maintain hygiene while working with the dough.",
+        "time": 793.8666666666667
+    },
+    {
+        "role": "assistant",
+        "content": "Next, Turn off the sink tap. You’re now ready to proceed with the next steps!",
+        "time": 794.9
+    }
+]

@@ -1,0 +1,109 @@
+You are an AI assistant skilled at generating questions and answers.  I will provide you with a detailed description of an ego video, along with the corresponding timestamp.
+
+Your task is to: 
+
+1. Convert this detailed description into questions and answers from the following angles:
+   - **Object Recognition**: Questions that ask about the category or identity of the object.
+   - **Attribute Perception**: Questions that ask about the attributes (e.g., color, shape, size) of the object.
+   - **Object Localization**: Questions that ask about the position or location of the object relative to other objects.
+   - **Text-Rich Understanding** : Questions that ask about the textual information mentioned in the caption. Note, label, writing, and tag do not indicate the inclusion of textual information. It must have specific textual information.
+   - **Ego Object Localization**: Questions that ask about the object's position relative to yourself.
+   - **Ego Object State Change Recognition**: Questions that ask about changes in the object's position relative to yourself.
+2. Phrased in a way that indicates a desire for future reminders (e.g., "what is ...", "I want to know when...", "when you see ...").
+3. Provide only {NUMBER} best question-answer pairs based on the caption
+4. Ensure that the questions are varied in structure and rich in content.
+5. Generate questions based on the following question format : 
+    - **Q:** Can you remind me of the specific brand written on the cup?
+    **A:** The specific brand written on the cup is KFC.
+    - **Q:** Is there any text or label on the cup? Could you let me know?
+    **A:** Yes, the cup has the text "KFC" on it.
+    - **Q:** What brand name is printed on the cup?
+    **A:** The brand name printed on the cup is KFC.
+    - **Q:** Is there any textual information related to a brand on the cup? Can you remind me?
+    **A:** Yes, the cup has textual information related to the brand KFC.
+6. The generated question is related to an object in the description
+7. Don't use 'video','camera','observer' in question and answer. 
+
+#### Example:
+
+ego video caption:
+Time is 0 - 480.14730564530254.
+Detailed Description: "The video is filmed from a first-person perspective, showing the hands and lower body of an individual seated on the floor in a room with wooden flooring. The person is wearing a blue sweater and dark pants. In front of them is a small table with various items including remote controls, a smartphone displaying a video call, a bottle, and some other miscellaneous objects.
+
+A colorful toy wand with a rainbow-colored ribbon attached to it is held by the person, which they use to play with two cats. One cat is a light grey Siamese-like breed with darker markings, while the other is a fluffy white cat. These cats are seen walking around the room, particularly near the table and the blue storage box filled with toys.
+
+As the video progresses, the camera remains mostly static but slightly shifts to follow the movements of the toy wand and the cats. The positions of the objects on the table remain relatively unchanged throughout most of the clip, except for slight adjustments made by the person interacting with them. The cats show curiosity and interest in the toy wand, moving closer or away depending on its movement.
+
+At one point, the person appears to hold up a bottle, possibly containing a liquid, and interacts with it briefly before putting it down again. The lighting in the room is consistent, suggesting indoor illumination without significant changes in natural or artificial light sources.
+
+Throughout the video, there is no notable change in the environment beyond the interactions between the person, the toy wand, and the cats. The overall scene captures a casual moment of play and interaction within a domestic setting.".
+
+
+Time is 483.62417564530256.
+Detailed Description: "The video captures a first-person perspective of an indoor setting, likely from the viewpoint of someone sitting on the floor. The scene is cozy and casual, featuring a wooden floor with various objects scattered around.
+
+Initially, there's a blue crate filled with colorful items like toys or craft supplies in front of the observer. To the right side, a cat is visible, moving across the frame at different points, indicating it's relatively close to the camera. On the left, another person's legs are seen crossed, wearing dark pants and a blue sweater, suggesting they're seated nearby.
+
+As the video progresses, the camera slightly shifts upwards, showing more of the room. A small white object, possibly a piece of paper or a toy, moves closer to the foreground, becoming more noticeable as the camera zooms out or pans up. The focus then extends to reveal more of the room, including a table with electronic devices such as a smartphone, a remote control, and a canister, indicating a living space or entertainment area.
+
+Further into the clip, the camera movement becomes more dynamic, panning across the room to show different angles. It reveals furniture like a white shelf unit, black speakers, and a corner of what appears to be a television stand. Electrical cords and outlets become visible, adding to the lived-in feel of the environment.
+
+Towards the end, the camera focuses on a hand reaching towards a door or cabinet, indicating interaction with the surroundings. This action suggests that the observer might be about to open something or adjust something within reach. Throughout the video, the lighting remains consistent, casting soft shadows on the wooden floor and creating a warm atmosphere.
+
+Overall, the video provides a detailed look at a moment in a domestic setting, capturing the movements and interactions within a familiar and comfortable space.".
+
+
+Time is 485.37930564530257.
+Detailed Description: "The video depicts a first-person perspective of an individual seated on the floor in a room with wooden flooring. Initially, the camera is focused on the person's lap area, where a colorful toy set is placed on a blue tray. Nearby, there is a cat partially visible and a small white object on the floor. The individual's hands are seen gesturing or moving near their lap.
+
+As the video progresses, the camera pans to reveal more of the room, showing objects such as a smartphone, remote controls, and a can on a nearby table, as well as part of another person wearing gray pants. A door is also visible, leading to what appears to be a stairwell or hallway, suggesting that the room might be connected to other parts of the house.
+
+The individual’s hand movements become less pronounced, and the focus shifts slightly towards the door and the adjacent space. The camera continues to pan across the room, capturing various angles of the furniture, including a shelf with electronic devices and speakers, indicating a living or entertainment area.
+
+At one point, the individual reaches out to touch the bottom of the door frame, possibly adjusting something or preparing to open it. The camera follows this action closely, providing a clear view of the interaction between the person and the door.
+
+Throughout the video, the lighting remains consistent, illuminating the scene adequately without significant changes. The overall environment suggests a casual, domestic setting with everyday items scattered around, and the interactions captured seem mundane, focusing on the movement within a familiar space.".
+
+
+
+questions and answers:
+
+**Task Type: Object Recognition**  
+**Question:** Can you remind me what the colorful toy set on the blue tray is when it comes into view?  
+**Answer:** The colorful toy set on the blue tray is a collection of small toys or craft supplies.  
+**Time:** 485.37930564530257  
+
+**Task Type: Object Localization**  
+**Question:** Where is the smartphone located relative to the remote controls on the table?  
+**Answer:** The smartphone is placed near the remote controls on the table.  
+**Time:** 483.62417564530256  
+
+**Task Type: Ego Object Localization**  
+**Question:** Can you remind me how far the blue crate filled with colorful items is from me?  
+**Answer:** The blue crate filled with colorful items is directly in front of you, within arm's reach.  
+**Time:** 483.62417564530256  
+
+**Task Type: Ego Object State Change Recognition**  
+**Question:** Can you remind me when the small white object on the floor changes its position relative to me?  
+**Answer:** The small white object on the floor remains stationary near your lap throughout the video.  
+**Time:** 485.37930564530257
+
+
+
+**NOTE:** 
+For Text-Rich Understanding, label, writing, and tag do not indicate the inclusion of textual information. Don't generate Text-Rich Understanding tasks without specific textual information. 
+Negative examples:
+**Task Type: Text-Rich Understanding**  
+**Question:** Is there any textual information displayed on the smartphone? Could you let me know?  
+**Answer:** Yes, the smartphone is displaying a photo or video, but no specific textual information is mentioned.  
+**Time:** 484.60364564530255 
+
+Only ask questions about captions in timestamps, such as (Time is 39.58046418245614), not snippets of Time (time is 0-4.074894266666666).
+Negative examples:
+**Task Type: Attribute Perception**  
+**Question:** What color is the shopping cart visible in the background?  
+**Answer:** The shopping cart visible in the background is red.  
+**Time:** 38.38273438518519 - 41.33675001481482  
+
+The object in question cannot appear in the previous caption.
+Now, please carefully review the captions and output your questions and answers following the SAME FORMAT as the examples above.

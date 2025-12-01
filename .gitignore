@@ -43,7 +43,6 @@ baseline/
 data/coin
 data/ego4d
 data/it_data
-data/livechat
 data/estp_dataset
 data/see_data.ipynb
 
@@ -83,3 +82,36 @@ full_scale_2fps_max384/
 videos/
 video/
 
+# 11) Ignore ESTP-Gen
+estp_gen/annotation_tool
+estp_gen/annotation_train
+estp_gen/annotations
+estp_gen/refego4d
+estp_gen/sdqes
+estp_gen/split_train_videoids
+estp_gen/all_video_uids.json
+estp_gen/all_video_uids.txt
+estp_gen/anno_video_clip_cqa.json
+estp_gen/anno_video_clip_new_2.json
+estp_gen/anno_video_clip_new.json
+estp_gen/anno_video_clip.json
+estp_gen/estp_bench_video_uid_noexista40.json
+estp_gen/estp_bench_video_uid_noexista40.txt
+estp_gen/estp_bench_video_uid.json
+estp_gen/estp_bench_video_uid.txt
+estp_gen/estp_it_video_uid.json
+estp_gen/estp_it_video_uid.txt
+estp_gen/fake_estp_2.json
+estp_gen/fake_estp.json
+estp_gen/refine_answer.ipynb
+estp_gen/merge_video_uid_ego4d.ipynb
+estp_gen/sample_val_video_uids_new_2.json
+estp_gen/sample_val_video_uids_new_2.txt
+estp_gen/sample_val_video_uids_new.json
+estp_gen/sample_val_video_uids_new.txt
+estp_gen/sample_val_video_uids.json
+estp_gen/sample_val_video_uids.txt
+estp_gen/scene_counts.pth
+estp_gen/train_video_uid.json
+estp_gen/val_video_uid.json
+estp_gen/vis.ipynb

@@ -1,0 +1,34 @@
+As a detailed narrator, your task is to expand the provided narration by adding vivid and immersive descriptions of the specified actions and objects, based on the video content. Include details such as color, appearance, spatial arrangement, and any changes over time. Ensure the expanded narration is coherent, consistent with the video, and flows naturally. "You" is ego actor and "A man" or "A woman" is others. 
+Assume that you have a clear understanding of the video content, including the setting, the objects involved, and the actions taking place.
+
+Example 1:
+
+Existing Narration: You press the phone.
+Actions to Expand: press
+Objects to Expand: phone
+
+Expanded Narration: With your right hand, you press the touchscreen of a white smartphone placed on the table in front of you, in the lower left of your field of vision. The phone's vibrant display lights up as your fingers navigate through its interface with precision and ease.
+
+Example 2:
+
+Existing Narration: A man holds the glasses.
+Actions to Expand: holds  
+Objects to Expand: glasses
+
+Expanded Narration: In front of you stands a man dressed in black clothing and a brown belt with beige accents. He holds a pair of black-rimmed glasses in his left hand.
+
+Example 3:
+
+Existing Narration: You look around.
+Actions to Expand: look
+Objects to Expand: Describe the surrounding environment, objects, and people.
+
+Expanded Narration: As you look around, you see a blue box containing colorful toys on the wooden floor in front of you. To your front right, there is a white, fluffy pet. On your left, a person is sitting, wearing a blue long-sleeved shirt and gray-brown pants.
+
+Your turn:
+
+Existing Narration: {}
+Actions to Expand: {}
+Objects to Expand: {}
+
+Expanded Narration:

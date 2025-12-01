@@ -1,0 +1,50 @@
+You are an AI assistant skilled at generating questions and answers. I have an action description involving changes in the state of objects. 
+
+Your task is to:  
+
+1. Extract the state change of the objects involved in the action.  
+2. Convert this state change into questions and answers focusing **only on state changes**.  
+3. Phrase the questions in a way that indicates a desire for future reminders (e.g., "what is ...", "I want to know when...", "when you see ...").  
+4. Provide only {NUMBER} best question-answer pairs based on the action description.  
+5. Ensure that the questions are varied in structure and rich in content.  
+6. Generate questions based on the following question format : 
+    - **Q:** Can you remind me of the specific brand written on the cup?
+    **A:** The specific brand written on the cup is KFC.
+    - **Q:** Is there any text or label on the cup? Could you let me know?
+    **A:** Yes, the cup has the text "KFC" on it.
+    - **Q:** What brand name is printed on the cup?
+    **A:** The brand name printed on the cup is KFC.
+    - **Q:** Is there any textual information related to a brand on the cup? Can you remind me?
+    **A:** Yes, the cup has textual information related to the brand KFC.
+
+#### Example:  
+
+Example 1 :
+
+**Action Description:**  
+"flips a dough from the tray with his right hand to his left hand"  
+
+**Step 1:** Extract the state change.  
+- The dough is moved from the tray to the left hand using the right hand.  
+
+**Step 2:** Create the best question-answer pairs based on the state change.  
+
+Task Type: State Change
+Question: How does the dough change its position?
+Answer: The dough is transferred from the tray to the left hand using the right hand.
+
+Example 1 :
+
+**Action Description:**  
+"cuts dough with his hands"  
+
+**Step 1:** Extract the state change.  
+- The dough is cut.  
+
+**Step 2:** Create the best question-answer pairs based on the state change.  
+
+Task Type: State Change
+Question: Can you remind me when the state of the dough changes?
+Answer: The dough has been cut.
+
+**NOTE:** Output only the questions and answers. Now, please carefully review the action description and output your questions and answers following the SAME FORMAT as the examples above.

@@ -1,0 +1,45 @@
+You are an AI assistant with expertise in video content analysis and natural language processing. I will provide multiple Q&A pairs related to the same video. 
+Your task is to:
+1. Identify and group the questions and answers that refer to the same object or task.
+2. Arrange them in a logical sequence.
+3. Provide the question id in a list format.
+4. Provide the reason for group and arrange.
+
+Output format:
+Provide your output in JSON format, only output question id in list format.
+
+EXAMPLE JSON OUTPUT:
+{
+    "groups": [
+        {
+            "question_ids": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "reason": "These questions are related to the cleaning activity, specifically focusing on the use and location of the purple basin and broom for cleaning purposes."
+        },
+        {
+            "question_ids": [
+                4
+            ],
+            "reason": "This question is about the state change of the trunk lid of the black Peugeot 108, which is a specific action related to the car."
+        },
+        {
+            "question_ids": [
+                5,
+                6,
+                7
+            ],
+            "reason": "These questions are related to the orange cloth or towel used in the cleaning process, focusing on its color, position, and state changes."
+        },
+        {
+            "question_ids": [
+                8,
+                9
+            ],
+            "reason": "These questions are about recognizing specific actions taken during the cleaning process, such as wiping the car door and spraying the car or hand towel."
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+You are an AI assistant proficient in summarizing items from captions.
+
+I will provide you with some captions related to an ego video. Your tasks are as follows:
+
+1. List all the items mentioned in each caption.
+2. Use consistent terminology to represent the same items across different captions (i.e., items that share the same category, appearance, and location description should be referred to with the same words).
+
+Provide your output in JSON format, with the `object_list` attribute filled for each caption.

@@ -1,0 +1,107 @@
+You are an AI assistant skilled at generating questions and answers.  I will provide you with a detailed description of an ego video, along with the corresponding timestamp.
+
+Your task is to: 
+
+1. Convert this detailed description into questions and answers from the following angles:
+   - **Object Recognition**: Questions that ask about the category or identity of the object.
+   - **Attribute Perception**: Questions that ask about the attributes (e.g., color, shape, size) of the object.
+   - **Object Localization**: Questions that ask about the position or location of the object relative to other objects.
+   - **Text-Rich Understanding** : Questions that ask about the textual information mentioned in the caption. Note, label, writing, and tag do not indicate the inclusion of textual information. It must have specific textual information.
+   - **Ego Object Localization**: Questions that ask about the object's position relative to yourself.
+   - **Ego Object State Change Recognition**: Questions that ask about changes in the object's position relative to yourself.
+2. Phrased in a way that indicates a desire for future reminders (e.g., "what is ...", "I want to know when...", "when you see ...").
+3. Provide only {NUMBER} best question-answer pairs based on the caption
+4. Ensure that the questions are varied in structure and rich in content.
+5. Generate questions based on the following question format : 
+    - **Q:** Can you remind me of the specific brand written on the cup?
+    **A:** The specific brand written on the cup is KFC.
+    - **Q:** Is there any text or label on the cup? Could you let me know?
+    **A:** Yes, the cup has the text "KFC" on it.
+    - **Q:** What brand name is printed on the cup?
+    **A:** The brand name printed on the cup is KFC.
+    - **Q:** Is there any textual information related to a brand on the cup? Can you remind me?
+    **A:** Yes, the cup has textual information related to the brand KFC.
+6. The generated question is related to an object in the description
+7. Don't use 'video','camera','observer' in question and answer. 
+
+#### Example:
+
+ego video caption:
+Time is 39.58046418245614.
+Detailed Description: "The video begins with a view of a kitchen sink area featuring blue-tiled walls, white countertops, and various items scattered around. To the left, there is a green dish rack holding utensils, and on the right side, near the edge of the countertop, are several objects including a bottle of dish soap, a cutting board with a knife, some vegetables like an orange and greens, and other small items.
+
+As the camera pans to the right, it reveals more of the kitchen environment. The focus shifts slightly to show a stovetop with pots and a stainless steel range hood above it. On the countertop, the previously mentioned objects remain in place, but additional items such as a can opener and a yellow container become visible.
+
+Further panning continues, showing a refrigerator with a sleek black finish on the right side. The perspective then moves down towards the floor, capturing the base of the refrigerator and part of the kitchen cabinetry. A plastic bag is seen at the bottom left corner, suggesting recent shopping or cleaning activity.
+
+Throughout the sequence, the camera's movement is smooth and deliberate, providing a clear view of the kitchen's layout and contents without any sudden movements or abrupt changes in angle. The lighting remains consistent, highlighting the cleanliness and organization of the space. The positioning of objects relative to each other and their visibility change subtly as the camera moves, offering a comprehensive overview of the kitchen from the observer's point of view.".
+
+
+Time is 241.88280084848483.
+Detailed Description: "The video clip appears to be filmed from a first-person perspective, likely using a head-mounted camera or a similar device. The environment is an indoor workshop or garage with various tools and equipment scattered around.
+
+1. **Initial Scene (the first image)**:
+   - A close-up view of the lower part of the body, showing legs wearing gray pants and brown shoes.
+   - To the left side, there's a large piece of machinery with "Kubota" branding on it, indicating the presence of heavy-duty equipment, possibly a tractor or bulldozer.
+   - Various items are visible in the background, including a yellow object that resembles a toy car, a black wheel, and some tools lying on the floor.
+   - The floor is concrete, and there are small debris and objects like a white box and what looks like a part of a tool or machinery component on the ground.
+
+2. **Subsequent Scenes (the second image and the third image)**:
+   - The camera angle shifts slightly but remains consistent from the observer’s point of view.
+   - The legs and feet remain central in the frame, providing a continuous sense of direction and movement within the space.
+   - In the subsequent frames, the camera moves closer to the ground, revealing more details of the floor and surrounding objects.
+   - There's a green helmet on the ground near the legs, suggesting someone may have been working or moving around recently.
+   - A wooden board and other miscellaneous items become more prominent as the camera pans down and rightward.
+   - The spatial relationships between objects such as the machinery, tools, and debris suggest a cluttered yet functional workspace where various tasks might be performed.
+
+3. **Object Positioning and Movement**:
+   - Objects like the machinery, helmet, and wooden board maintain their relative positions relative to the observer throughout the scenes.
+   - As the camera moves, the clarity and visibility of these objects change, with some becoming more prominent while others recede into the background due to the shifting viewpoint.
+   - The interaction is minimal, focusing mainly on the observation and navigation through the space rather than active engagement with specific objects.
+
+4. **Spatial Relationships**:
+   - The machinery is consistently positioned to the left and somewhat in front of the observer, dominating the initial visual field.
+   - The helmet and other items on the floor indicate areas of activity or recent use.
+   - The wooden board and other items on the right-hand side suggest a storage area or a place for work-related materials.
+
+Overall, the video provides a snapshot of a moment in a busy workshop or garage, capturing the essence of a person navigating through a space filled with tools and machinery, without any significant action taking place apart from the slight movements of the camera and the observer's position.".
+
+questions and answers:
+
+Task Type: Object Recognition  
+Question: Can you remind me what the green object on the countertop is when it comes into view?  
+Answer: The green object on the countertop is a dish rack holding utensils.  
+Time: 39.58046418245614 
+
+Task Type: Attribute Perception  
+Question: What color is the helmet on the ground near the legs when it comes into view?
+Answer: The helmet on the ground is green.
+Time: 241.88280084848483
+
+Task Type: Object Localization  
+Question: Where is the cutting board located relative to the dish soap bottle?  
+Answer: The cutting board is placed near the dish soap bottle on the right side of the countertop.  
+Time: 39.58046418245614  
+
+Task Type: Ego Object Localization  
+Question: Can you remind me how far the green dish rack is from me?  
+Answer: The green dish rack is located to your left on the countertop, approximately within arm's reach.  
+Time: 39.58046418245614
+
+Task Type: Ego Object State Change Recognition  
+Question: Can you remind me when the green helmet changes its position relative to me?
+Answer: The green helmet remains stationary on the ground near your feet.
+Time: 241.88280084848483
+
+Task Type: Text-Rich Understanding 
+Question: What brand name is printed on the machinery?
+Answer: The brand name printed on the machinery is "Kubota."
+Time: 241.88280084848483
+
+
+**NOTE:** 
+1. For Text-Rich Understanding, label, writing, and tag do not indicate the inclusion of textual information. Don't generate Text-Rich Understanding tasks without specific textual information. 
+2. Only ask questions about captions in timestamps, such as (Time is 39.58046418245614), not snippets of Time (time is 0-4.074894266666666).
+3. The object in question cannot appear in the previous caption.
+4. Try to have different timestamps for different questions.
+Now, please carefully review the captions and output your questions and answers following the SAME FORMAT as the examples above.

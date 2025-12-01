@@ -1,0 +1,330 @@
+You are an AI assistant skilled in generating contextually coherent dialogues. Given a conversation, your task is to modify it according to the following requirements:  
+
+1. Identify the logical connections between dialogue turns and ensure coherence.  
+2. Modify questions to introduce contextual dependencies, making them flow naturally from previous turns.  
+3. Use demonstrative pronouns (e.g., "it," "that," "this") for previously mentioned objects of the same type instead of repeating their names.  
+
+Ensure the revised dialogue maintains clarity while enhancing contextual continuity.
+Provide your output in JSON format.
+
+EXAMPLE 1 INPUT:
+reason:
+These questions are related to the orange cloth or towel used in the cleaning process, detailing its color, position, state changes during the dipping process, and actions involving wiping and spraying, all of which collectively describe the interactions with the cleaning cloth.
+conversation:
+[
+    {
+        "role": "user",
+        "content": "Can you remind me how far the teal-colored object is from me when it is adjusted?",
+        "time": 2162.1472225467164,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The teal-colored object is within arm's reach when it is adjusted.",
+        "start_time": 2160.5,
+        "end_time": 2168.0,
+        "stamp_time": 2164.25,
+        "time": 2162.5888172000004,
+        "task_id": 0
+    },
+    {
+        "role": "user",
+        "content": "Where is the decorative item positioned relative to me when I drop it on the table?",
+        "time": 2174.49137067941,
+        "task_id": 1
+    },
+    {
+        "role": "assistant",
+        "content": "The decorative item is positioned in front of you, on the table, as you drop it gently onto the surface.",
+        "time": 2176.2360672000004,
+        "start_time": 2175.3976107374156,
+        "end_time": 2177.0745236625853,
+        "task_id": 1
+    },
+    {
+        "role": "user",
+        "content": "Can you remind me when I handle or place decorations on the table?",
+        "time": 2180.429989848923,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You place decorations on the table.",
+        "time": 2203.3947272000005,
+        "start_time": 2202.5562707374156,
+        "end_time": 2204.2331836625854,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You drop the decorations on the table.",
+        "time": 2216.4963172000002,
+        "start_time": 2215.6578607374154,
+        "end_time": 2217.334773662585,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You take the decorations.",
+        "time": 2333.3862772,
+        "start_time": 2332.5478207374153,
+        "end_time": 2334.224733662585,
+        "task_id": 2
+    },
+    {
+        "role": "user",
+        "content": "I want to know when I move around or walk during the activity. Could you let me know?",
+        "time": 2338.175682730055,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2360.9068272000004,
+        "start_time": 2360.0683707374155,
+        "end_time": 2361.7452836625853,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2380.8852472000003,
+        "start_time": 2380.0467907374154,
+        "end_time": 2381.723703662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2417.4743972,
+        "start_time": 2416.6359407374152,
+        "end_time": 2418.312853662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move.",
+        "time": 2426.9633372000003,
+        "start_time": 2426.1248807374154,
+        "end_time": 2427.801793662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You walk around.",
+        "time": 2445.6821472,
+        "start_time": 2444.8436907374153,
+        "end_time": 2446.520603662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2458.3962572,
+        "start_time": 2457.557800737415,
+        "end_time": 2459.234713662585,
+        "task_id": 3
+    }
+]
+
+EXAMPLE 1 JSON OUTPUT:
+[
+    {
+        "role": "user",
+        "content": "How far is the teal-colored object from me when I adjust it?",
+        "time": 2162.1472225467164,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The teal-colored object is within arm's reach when you adjust it.",
+        "start_time": 2160.5,
+        "end_time": 2168.0,
+        "stamp_time": 2164.25,
+        "time": 2162.5888172000004,
+        "task_id": 0
+    },
+    {
+        "role": "user",
+        "content": "Where is decorative item positioned relative to me when I drop it on the table?",
+        "time": 2174.49137067941,
+        "task_id": 1
+    },
+    {
+        "role": "assistant",
+        "content": "It is positioned in front of you, on the table, as you drop it gently onto the surface.",
+        "time": 2176.2360672000004,
+        "start_time": 2175.3976107374156,
+        "end_time": 2177.0745236625853,
+        "task_id": 1
+    },
+    {
+        "role": "user",
+        "content": "When do I handle or place it on the table?",
+        "time": 2180.429989848923,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You place it on the table.",
+        "time": 2203.3947272000005,
+        "start_time": 2202.5562707374156,
+        "end_time": 2204.2331836625854,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You drop it on the table.",
+        "time": 2216.4963172000002,
+        "start_time": 2215.6578607374154,
+        "end_time": 2217.334773662585,
+        "task_id": 2
+    },
+    {
+        "role": "assistant",
+        "content": "You take it.",
+        "time": 2333.3862772,
+        "start_time": 2332.5478207374153,
+        "end_time": 2334.224733662585,
+        "task_id": 2
+    },
+    {
+        "role": "user",
+        "content": "At what points do I move around during the activity?",
+        "time": 2338.175682730055,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2360.9068272000004,
+        "start_time": 2360.0683707374155,
+        "end_time": 2361.7452836625853,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2380.8852472000003,
+        "start_time": 2380.0467907374154,
+        "end_time": 2381.723703662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2417.4743972,
+        "start_time": 2416.6359407374152,
+        "end_time": 2418.312853662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move.",
+        "time": 2426.9633372000003,
+        "start_time": 2426.1248807374154,
+        "end_time": 2427.801793662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You walk around.",
+        "time": 2445.6821472,
+        "start_time": 2444.8436907374153,
+        "end_time": 2446.520603662585,
+        "task_id": 3
+    },
+    {
+        "role": "assistant",
+        "content": "You move around.",
+        "time": 2458.3962572,
+        "start_time": 2457.557800737415,
+        "end_time": 2459.234713662585,
+        "task_id": 3
+    }
+]
+
+EXAMPLE 2 INPUT:
+reason:
+These questions are related to the orange cloth or towel used in the cleaning process, detailing its color, position, state changes during the dipping process, and actions involving wiping and spraying, all of which collectively describe the interactions with the cleaning cloth.
+conversation:
+[
+    {
+        "role": "user",
+        "content": "Can you tell me where the garbage are when I drop them?",
+        "time": 60.0,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The garbage is dropped to the next to the notebook on the counter.",
+        "start_time": 143.0,
+        "end_time": 145.0,
+        "stamp_time": 144.0,
+        "time": 144.0,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The garbage is dropped on the lab bench in front of you",
+        "time": 230.0,
+        "start_time": 228.0,
+        "end_time": 232.0,
+        "task_id": 0
+    },
+    {
+        "role": "user",
+        "content": "I want to clean up some things. Is there anything that can help me ?",
+        "time": 240.0,
+        "task_id": 1
+    },
+    {
+        "role": "assistant",
+        "content": "You can clean up some things into the yellow bucket near the shelf.",
+        "time": 292.5,
+        "start_time": 290.0,
+        "end_time": 295.0,
+        "task_id": 1
+    }
+]
+
+EXAMPLE 2 JSON OUTPUT:
+[
+    {
+        "role": "user",
+        "content": "Can you tell me where the garbage are when I drop them?",
+        "time": 60.0,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The garbage is dropped to the next to the notebook on the counter.",
+        "start_time": 143.0,
+        "end_time": 145.0,
+        "stamp_time": 144.0,
+        "time": 144.0,
+        "task_id": 0
+    },
+    {
+        "role": "assistant",
+        "content": "The garbage is dropped on the lab bench in front of you",
+        "time": 230.0,
+        "start_time": 228.0,
+        "end_time": 232.0,
+        "task_id": 0
+    },
+    {
+        "role": "user",
+        "content": "I want to clean them up.",
+        "time": 240.0,
+        "task_id": 1
+    },
+    {
+        "role": "assistant",
+        "content": "You can throw them from the counter and the lab bench into the yellow bucket near the shelf.",
+        "time": 292.5,
+        "start_time": 290.0,
+        "end_time": 295.0,
+        "task_id": 1
+    }
+]
