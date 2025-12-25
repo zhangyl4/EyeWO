@@ -17,11 +17,11 @@ class EWOConfig:
     """Fixed configuration for EWO model inference"""
     
     # Required model configuration parameters
-    resume_from_checkpoint: str = "/2022233235/videollm-online/outputs/ego4d_ESTPSQA/beaconlivel_h_stage2_livebase_wodino"
-    pretrain_mm_mlp_adapter: str = "/2022233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/mm_projector.bin"
+    resume_from_checkpoint: str = "/2024233235/videollm-online/outputs/ego4d_ESTPSQA/beaconlivel_h_stage2_livebase_wodino"
+    pretrain_mm_mlp_adapter: str = "/2024233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/mm_projector.bin"
     live_version: str = "beaconlivel_h"
     finetune_modules: str = "beacon_embed_tokens connnetor"
-    llm_pretrained: str = "/2022233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/"
+    llm_pretrained: str = "/2024233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/"
     enable_beacon: bool = True
     skip_first: bool = True
     beacon_window: int = 720

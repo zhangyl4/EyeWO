@@ -33,8 +33,8 @@ def extract_projector_weights(model_path: str, output_path: str):
 
 def main():
     # 设置路径
-    model_path = "/2022233235/.cache/huggingface/hub/models--videollm-online-8b-v2plus-coin/model-00004-of-00004.safetensors"
-    output_path = "/2022233235/.cache/huggingface/hub/models--videollm-online-8b-v2plus-coin/mm_projector.bin"
+    model_path = "/2024233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/model-00004-of-00004.safetensors"
+    output_path = "/2024233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/mm_projector.bin"
     
     # 提取并保存权重
     extract_projector_weights(model_path, output_path)

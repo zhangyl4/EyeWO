@@ -8,6 +8,27 @@ else
     nnodes=1
 fi
 
+
+${launcher} --master_port 2367 merge_lora.py \
+    --live_version beaconlivel_h \
+    --eval_datasets ego4d_ESTPSQAHighResGen \
+    --num_train_epochs 2 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --prediction_loss_only False \
+    --dataloader_num_workers 12 \
+    --bf16 True \
+    --tf32 True \
+    --report_to tensorboard \
+    --output_dir outputs/videollm-online  \
+    --llm_pretrained meta-llama/Meta-Llama-3-8B-Instruct \
+    --resume_from_checkpoint chenjoya/videollm-online-8b-v1plus \
+    --finetune_modules connnetor \
+
+
+
+
+
 ${launcher} --master_port 2367 merge_lora.py \
     --live_version beaconlivel_h \
     --eval_datasets ego4d_ESTPSQAHighResGen \

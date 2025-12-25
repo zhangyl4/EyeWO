@@ -4,6 +4,7 @@
 **Conference**: NeurIPS 2025  
 **This repository** is the **official implementation** of the NeurIPS 2025 paper “Eyes Wide Open”, including training / inference code, configs, and scripts to reproduce the main results.
 
+
 ### Overview
 
 - **Project name**: Eyes Wide Open (video-language multimodal model / online understanding framework)  
@@ -23,15 +24,15 @@ Some scripts in this repo are adapted from existing open-source projects (e.g., 
 - `baseline/`: third-party baselines and related works (ignored from the main git history to avoid a huge repo).
 
 
-### TODO
+### News
 
-This is an initial release of the code with a rough introduction, shared due to limited time. 
-The data and model weights are being uploaded, and any missing code will be organized and provided as soon as possible. 
-Please feel free to open an issue or contact me via email if you encounter any problems or need more details.
+We are currently conducting liveCC-EyeWO extended training, aiming to further enhance the model into an even stronger multimodal large language model, comparable to Qwen or LLaVA. If you have relevant experience or encounter any issues, we welcome discussions and collaboration.
+
+2024-12-25: Released data and model weights featured in the paper.
 
 ### Dependencies & Environment
 
-We adopt the environment setup from **[showlab/videollm-online: VideoLLM-online – Online Video Large Language Model for Streaming Video (CVPR 2024)](https://githubovideollm-online/)** as our primary configuration. Please refer to `env.sh` in that repository for the basic setup.
+We adopt the environment setup from **[videollm-online (CVPR 2024)](https://githubovideollm-online/)** as our primary configuration. Please refer to `env.sh` in that repository for the basic setup.
 
 For offline multimodal large language model (MLLM) experiments, we use Hugging Face Transformers and only require the standard LLaVA environment.
 
@@ -44,14 +45,13 @@ Please fill in or update the links below when your datasets are publicly availab
 
 - **datasets**
 
-  - **ESTP-IT** (instruction tuning dataset): **ModelScope dataset repo**: `zhangyl9/ESTP-IT`  
+  - **ESTP-IT** (instruction tuning and origin catpion dataset): **ModelScope dataset repo**: `zhangyl9/ESTP-IT`  
 
   - **ESTP-Bench**(evaluation data and script):  **ModelScope dataset**: `zhangyl9/ESTP-Bench`  
   - **2FPS Original Ego4D Video:**  **ModelScope dataset**: `zhangyl9/ESTP_origin_video`  
 
 - **Model Weight**
-
-  - 
+  - **VideoLLM-EyeWO join training version **:  **ModelScope model**: `zhangyl9/VideoLLM-EyeWO`  
 
 ### Quick Start: Training & Inference
 
@@ -65,25 +65,104 @@ cd eyes-wide-open
 bash env.sh
 ```
 
+#### Initialize Model Weights
+
+1. **Download Backbone Models**  
+   - Download LLaMA3: `meta-llama/Meta-Llama-3-8B-Instruct`
+   - Download SigLIP: `google/siglip-large-patch16-384`
+
+2. **Download VideoLLM-Online LoRA Adapters**  
+   - Obtain from: `chenjoya/videollm-online-8b-v1plus`
+
+3. **Merge LoRA into Backbone**  
+   - Run the merging script:  
+     ```bash
+     ./merge_lora.sh
+     ```
+
+4. **Extract Multimodal Projector Weights**  
+   - Use the provided script to extract projector weights:  
+     ```bash
+     python extract_projector.py
+     ```
+   - This will generate the `mm_projector.bin` file needed for initialization.
+
+
 #### Train on ESTP tasks
 
-Use the scripts under `scripts/estp` (names may differ from the example below):
+1. **Download the ESTP-IT Dataset**  
+   - Obtain the dataset from the ModelScope repository: [`zhangyl9/ESTP-IT`](https://www.modelscope.cn/datasets?query=zhangyl9/ESTP-IT)  
+   - Extract (untar) the dataset into the `./datasets` directory.
+
+2. **Start Training**  
+   - Refer to the configuration options and default values in `./models/arguments_live.py` to customize your training as needed.
+
+**Tip:**  
+For ease of reproduction, you can use the provided VideoLLM-Online initial weights and perform single-stage training (starting directly from stage 2). This will yield results comparable to those reported in the paper and serves as a strong baseline for future research or development.
+
+**Usage:**  
+Training scripts are provided under the `scripts/estp` directory (script names may vary; adapt as needed). For example:
 
 ```bash
-bash scripts/estp/beacon_livel_h_stage3.5_livebase_cqa.sh   # Example; replace with the script you actually use
-# for pre 1 epoch, set add_random_high_res_ratio as 0, then using evaluate_wVsionEncoder.py to get inference result, after that, using data/estp/livechat.py HighResInsertor to construct final training dataset.
+bash scripts/estp/beacon_livel_h_stage3.5_livebase_cqa.sh  # Example script – replace with your chosen script
 ```
+
+- If performing pre-training for 1 epoch, set `add_random_high_res_ratio` to `0`.
+- After this, use `evaluate_wVsionEncoder.py` for inference to obtain results.
+- Next, apply `data/estp/livechat.py` with the `HighResInsertor` to construct the final training dataset.
+
 
 #### Inference / evaluation
 
-```bash
-# for ESTP task, refer to eval_estp.sh
-# for ovobench and qaego4d,
-distributed_evaluate_ovobench_videollmeyewo.py
-EXPORT ONLINE=1 # oneline or not
-torchrun --standalone --nproc_per_node=8 distributed_evaluate_qaego4d_videollmeyewo.py
-# we provide ours result in evaluation/
-```
+##### ESTP Benchmark
+
+1. **Prepare Models and Weights**
+   - Construct the pretrained VideoLLM-Online model.
+   - Download the model weights for VideoLLM-EyeWo.
+
+2. **Download ESTPbench**
+   - Obtain the ESTPbench dataset and place it in the `./data` directory.
+
+3. **Run Evaluation Script**
+   - To reproduce ESTP task results, you can use the following example script (see `eval_estp.sh` for details):
+   ```bash
+   # ESTP evaluation example
+   export CUDA_VISIBLE_DEVICES=4,5,6,7
+   python /2022233235/videollm-online/eval_estp_batch.py  \
+       --data_file /2022233235/videollm-online/data/estp_dataset/estp_bench_sq.json \
+       --model_name EWO \
+       --llm_pretrained /2022233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/ \
+       --pretrain_mm_mlp_adapter /2022233235/.cache/huggingface/hub/models--videollm-online-8b-v1plus/mm_projector.bin \
+       --resume_from_checkpoint outputs/ego4d_ESTPSQA/beaconlivel_h_stage2_livebase_all \
+       --add_type fusion \
+       --add_vision_pretrained facebook/dinov2-large \
+       --benchmark_name ESTP_singleQ_benchmark \
+       --eval_mode frame_by_frame \
+       --output_file /2022233235/videollm-online/data/estp_dataset/estpSqa_ours/LivebaseStage2_v4.json \
+       --device cuda:0 \
+       --master_port 2280
+   ```
+
+##### QAEgo4D and OVO-Bench Evaluation
+
+1. **Download Datasets**
+   - Download the QAEgo4D-MC-test dataset from HuggingFace: [`Becomebright/QAEgo4D-MC-test`](https://huggingface.co/Becomebright/QAEgo4D-MC-test)
+   - Download OVO-Bench from HuggingFace: [`JoeLeelyf/OVO-Bench`](https://huggingface.co/JoeLeelyf/OVO-Bench)
+
+2. **Run Evaluation Scripts**
+   - To evaluate on OVO-Bench and QAEgo4D, use the following commands:
+   ```bash
+   # OVO-Bench evaluation
+   torchrun --standalone --nproc_per_node=8 distributed_evaluate_ovobench_videollmeyewo.py
+
+   # (Optional) Set ONLINE mode; 1 for online, 0 for offline
+   export ONLINE=1
+
+   # QAEgo4D evaluation
+   torchrun --standalone --nproc_per_node=8 distributed_evaluate_qaego4d_videollmeyewo.py
+   ```
+
+> *Note: Our evaluation results are provided in the `evaluation/` directory.*
 
 
 
